@@ -1,4 +1,4 @@
-# My_Portfolio
+# My_Website
 
-Here is my portfolio in which will be everything I have learned and done since my entry to @adatechschool. 
-Hope you'll enjoy its content! 👩🏻‍💻
+Here is my portfolio showcasing everything I've learned and accomplished since joining @adatechschool. 
+<br> I hope you enjoy its content! 👩🏻‍💻
