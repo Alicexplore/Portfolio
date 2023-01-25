@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/apercu');
+@import url('https://fonts.cdnfonts.com/css/abigate-desgo');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+   
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Position the logo and title in the top left corner */
+  #logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  
+  /* Style the logo title */
+  #logo h2 {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  /* Rotate and align the links on the left side */
+  .ulleft {
+    transform: rotate(-90deg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    list-style-type: none;
+  }
+  
+  /* Style the links */
+  ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Align the links in the bottom right corner */
+  .ulright{
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    list-style-type: none;
+  }
+  
+  /* Style the links */
+  /* .ulright li { */
+    /* display: block; Change the display to block, so the links align vertically */
+    /* margin: 10px;
+  } */
+  
+  /* Make the webpage responsive */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+    #logo {
+      top: 10px;
+      left: 10px;
+    }
+    ul.right {
+      right: 10px;
+      bottom: 10px;
+    }
+  }
