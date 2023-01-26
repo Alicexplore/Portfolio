@@ -12,71 +12,29 @@ body {
     display: inline-block;
 }
 
-.icons {
-    margin-top: 9.4vw;
-}
-
-.icon1 {
-    margin-left: 2vw;
-    line-height: 4.2vw;
-}
-
-.icon1:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-.icon2 {
-    line-height: 4.2vw;
-    margin-left: 2vw;
-}
-
-.icon2:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-
-.icon3 {
-    margin-left: 1.3vw;
-    line-height: 4.2vw;
-}
-
-.icon3:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-
-.icon4 {
-    line-height: 4.2vw;
-    margin-left: 2.1vw;
-}
-
-.icon4:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-.icon5 {
-    line-height: 7.2vw;
-    margin-left: 2.2vw;
-}
-
-.icon5:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
+ul {
+    transform: rotate(-90deg);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    list-style-type: none;
+  }
+  
+  /* Style the links */
+  ul li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Make the webpage responsive */
+  /* @media (max-width: 600px) {
+    ul {
+      left: -30px;
+    }
+  } */
 
 h1 {
     color: #222222;
