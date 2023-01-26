@@ -16,7 +16,7 @@ body {
 }
 .popup{
     /* background-color: #222222; */
-    background-image: url(./IMG/gradient.jpg);
+    background-image: url(./images/gradient.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 500px;
