@@ -7,195 +7,55 @@ body {
     background-color: #f2f2f2; 
 }
 
-*,
-*:before,
-*:after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-.popup{
-    /* background-color: #222222; */
-    background-image: url(./images/gradient.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: 450px;
-    padding: 30px 40px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 80%;
-    top: 49%;
-    /* border-radius: 8px; */
-    font-family: "apercu", sans-serif;
-    color: #222222;
-    /* font-weight: 700; */
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: left;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    gap: 30vw;
+    flex-wrap: nowrap;
+}
+
+.container > section {
+    flex: 1;
+    margin: 10px;
     text-align: left;
-    z-index: 2;
-}
-
-.popup__overlay {
-	-webkit-filter: blur(4px);
-	filter: blur(4px);
-	transition: .3s ease-in-out;
-}
-
-.popup__overlay:hover {
-    -webkit-filter: blur(0);
-	filter: blur(0);
-    cursor: pointer;
+    flex-wrap: nowrap;
 }
 
 .littlelogo {
-    text-align: center;
-    margin-top: -2vw; 
-    width: 45%;
-    line-height: 25px;
+    width: 100px;
+    margin-top: -4vw;
 }
-
-.popup button{
-    display: block;
-    margin:  0 0 20px auto;
-    background-color: transparent;
-    font-size: 30px;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    
-}
-.popup p{
-    font-size: 0.9vw;
-    margin: 20px 12px;
-    margin-top: 50px;  
-    line-height: 1vw;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h1 {
-    font-size: 1.7vw; 
-    font-family: "apercu", sans-serif;
-    color: #222222;
-}
-
 
 header {
-    width: 100%;
-    display: inline-block;
+    display: inline-flex;
 }
 
-header h4 {
-    position: absolute;
-    margin-left:3vw;
-    margin-top: 2.1vw;
-    font-size: 1.6vw;
-    color: #222222;
-    font-family: "apercu", sans-serif;
-    z-index: 3;
-    display: inline-block;
-}
-
-.logoleft {
-    /* margin-left: 1vw; */
-    margin-left: 1vw;
-    display: inline-block;
-}
-
-.intro {
-    position: fixed;
-    z-index: 2;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #222222;
-    transition: 1s;
-}
-
-.logo-header {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffffff;
-    z-index: 3;
-}
-
-.logo {
-    font-family: "apercu", sans-serif;
-    position: relative;
-    display: inline-block;
-    margin-top: 7vw;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    z-index: 3;
-}
-
-.logo.active {
-    bottom: 0;
-    opacity: 1;
-    transition: ease-in-out 0.5s;
-    z-index: 3;
-}
-
-.logo.fade {
-    bottom: 150px;
-    opacity: 0;
-    transition: ease-in-out 0.5s;
-    z-index: 3;
-}
-
-.span1 {
-    font-size: 10vw;
-    text-align: left;
-    font-family: "apercu", sans-serif;
-    font-weight: bold;
-    margin-left: 9vw; 
-    line-height: 8.5vw; 
-    color: #222222;
-    margin-top: 9vw;
-    z-index: 1;
-}
-
-.span2 {
-    margin-top: 0vw;
-    margin-left: 22vw;
-    font-size: 10vw;
-    text-align: left;
-    font-family: "apercu", sans-serif;
-    font-weight: bold;
-    margin-left: 9vw; 
-    line-height: 8.5vw; 
-    color: #222222;
-    z-index: 1;
-}
-
-.arrowtitle {
-    margin-top: 0vw;
+header h2 {
+    display: inline-flex; 
     margin-left: 1vw;
 }
 
-.myname {
-    margin-left: 11vw;
-    margin-top: 1vw;
-    font-size: 1.85vw; /*1.28;*/
-    color: #222222;
-    font-weight: bold;
-    font-family: "apercu", sans-serif;
-    z-index: 1;
-    position: absolute;
-    line-height: 10px;
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: left;
+    margin-left: 3vw;
+    margin-top: 10vw;
 }
 
-.hand {
-    position: absolute;
-    margin-top: -30vw;
-    margin-left: 65vw;
-   
+.container2 > section {
+    flex: 1;
+    margin: 10px;
+    text-align: left;
 }
 
 .ulleft {
@@ -211,63 +71,86 @@ header h4 {
     color: #222222;
     font-size: 1.1vw;
     font-weight: bold;
-    word-spacing: 1vw;
+    display: flex;
+    margin-left: 4vw;
   }
   
 .ulleft li {
-    display: inline-block;
+   
     margin: 10px;
+    display: flex;
   }
 
-.ulright {
-    text-align: right;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left: 81.5vw;
-    top: 85%;
-    list-style-type: none;
+.welcome {
+    font-size: 10vw;
+    text-align: left;
     font-family: "apercu", sans-serif;
-    color: #222222;
-    font-size: 1.1vw;
     font-weight: bold;
-  }
-  
-.ulright li {
-    display: inline-block;
-  }
-
-/* .contact {
-    text-align: right;
-    font-family: "apercu", sans-serif;
-    font-size: 1vw;
-    margin-top: 7vw;
-    margin-left: 82vw;
-    font-weight: bold;
+    margin-left: -25vw; 
+    line-height: 8.5vw; 
     color: #222222;
-    position: fixed;
-} */
-
-.arrow {
-    width: 20%;
+    display: flex;
+    margin-top: -7vw;
 }
 
-/* .rights {
-    position: absolute;
-    text-align: right;
-    font-family: "apercu", sans-serif;
-    font-size: 0.8vw;
-    line-height: 0.7vw;
-    margin-top: 11.6vw;
-    margin-left: 3.3vw;
-    font-weight: bold;
-    color: #222222;
+.arrowwelcome {
+    width: 100%;
+    display: flex;
+    margin-top: 15vw;
+    margin-left: -5vw;
+}
+
+.hand {
+    display: flex;
+    width: 90%;
+    margin-top: -15vw;
+    margin-left: -3vw;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: left;
+    margin-left: 3vw;
+    gap: 30vw;
+}
+
+.container3 > section {
+    flex: 1;
+    margin: 10px;
     text-align: left;
-} */
+}
 
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
 
+@media (max-width: 600px) {
+    .container {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .container > section {
+        flex: initial;
+        width: 100%;
+    }
 
+    .container2 {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .container2 > section {
+        flex: initial;
+        width: 100%;
+    }
 
-
-
-
+    .container3 {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .container3 > section {
+        flex: initial;
+        width: 100%;
+    }
+}
