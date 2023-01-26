@@ -19,7 +19,7 @@ body {
     background-image: url(./images/gradient.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 500px;
+    width: 480px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
