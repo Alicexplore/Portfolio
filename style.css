@@ -19,7 +19,7 @@ body {
     background-image: url(./images/gradient.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    width: 480px;
+    width: 450px;
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -236,128 +236,6 @@ header h4 {
 .ulright li {
     display: inline-block;
   }
-
-/* .link:before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    border-radius: 0px;
-    background-color: #222222;
-    bottom: 0;
-    left: 0;
-    transform-origin: top;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-}
-
-.link:hover::before {
-    transform-origin: top;
-    transform: scaleX(1);
-  } */ */
-
-/* .links {
-    position: relative;
-    word-spacing: 0.6vw;
-    text-align: left;
-    margin-left: -94vw;
-    margin-top: -96vw;
-    transform: rotate(-90deg);
-    color: #222222;
-}
-
-.link {
-    font-weight: bold;
-    color: #222222;
-    font-size: 1vw;
-    font-family: "apercu", sans-serif;
-    position: relative;
-}
-
-.link:before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 20px;
-    border-radius: 0px;
-    background-color: #222222;
-    bottom: 0;
-    left: 0;
-    transform-origin: top;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-}
-
-.link:hover::before {
-    transform-origin: top;
-    transform: scaleX(1);
-  } */
-
-/* .icons {
-    margin-top: -25vw;
-    position: relative;
-}
-
-.icon1 {
-    margin-left: 2vw;
-    line-height: 4.2vw;
-}
-
-.icon1:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-.icon2 {
-    line-height: 4.2vw;
-    margin-left: 2vw;
-}
-
-.icon2:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-
-.icon3 {
-    margin-left: 1.3vw;
-    line-height: 4.2vw;
-}
-
-.icon3:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-.icon4 {
-    line-height: 4.2vw;
-    margin-left: 2.1vw;
-}
-
-.icon4:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-}
-
-.icon5 {
-    line-height: 7.2vw;
-    margin-left: 2.2vw;
-}
-
-.icon5:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    transition:all 0.7s;
-} */
 
 /* .contact {
     text-align: right;
