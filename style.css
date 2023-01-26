@@ -76,14 +76,13 @@ body {
     flex-wrap: nowrap;
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
 }
 
 .logolittle {
-    width: 100px;
-    margin-top: -2vw;
+    max-width: 100%;
 }
 
 .hey {
