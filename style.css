@@ -9,6 +9,55 @@ body {
 
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
+.intro {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #222222;
+    transition: 1s;
+}
+
+.logo-header {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    z-index: 3;
+    display: flex;
+}
+
+.logo {
+    font-family: "apercu", sans-serif;
+    position: relative;
+    display: inline-block;
+    margin-top: 7vw;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    z-index: 3;
+    display: flex;
+}
+
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+    z-index: 3;
+}
+
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+    z-index: 3;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -27,18 +76,21 @@ body {
     flex-wrap: nowrap;
 }
 
-.littlelogo {
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.logolittle {
     width: 100px;
-    margin-top: -4vw;
+    margin-top: -2vw;
 }
 
-header {
-    display: inline-flex;
-}
-
-header h2 {
-    display: inline-flex; 
-    margin-left: 1vw;
+.hey {
+    font-family: "apercu", sans-serif;
+    color: #222222;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -63,20 +115,19 @@ header h2 {
     text-align: center;
     margin: 0;
     padding: 0;
-    position: absolute;
-    left: -8vw;
-    top: 47%;
+    margin-top: -7.8vw;
+    margin-left: -26.5vw;
     list-style-type: none;
     font-family: "apercu", sans-serif;
     color: #222222;
     font-size: 1.1vw;
     font-weight: bold;
     display: flex;
-    margin-left: 4vw;
+    gap: 0px 22px;
+   
   }
   
 .ulleft li {
-   
     margin: 10px;
     display: flex;
   }
@@ -90,7 +141,12 @@ header h2 {
     line-height: 8.5vw; 
     color: #222222;
     display: flex;
-    margin-top: -7vw;
+    margin-top: -3vw;
+}
+
+.arrowtitle {
+    margin-top: -16.8vw;
+    margin-left: 17vw;
 }
 
 .arrowwelcome {
@@ -103,7 +159,7 @@ header h2 {
 .hand {
     display: flex;
     width: 90%;
-    margin-top: -15vw;
+    margin-top: -11vw;
     margin-left: -3vw;
 }
 
@@ -116,6 +172,7 @@ header h2 {
     align-items: left;
     margin-left: 3vw;
     gap: 30vw;
+    margin-top: -3vw;
 }
 
 .container3 > section {
@@ -123,6 +180,22 @@ header h2 {
     margin: 10px;
     text-align: left;
 }
+
+.ulright {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    list-style-type: none;
+    font-family: "apercu", sans-serif;
+    color: #222222;
+    font-size: 1.1vw;
+    font-weight: bold;
+  }
+  
+.ulright li {
+    display: inline-block;
+  }
 
 /*////////////////////////////////////////////////////////////////////////////////////////////*/
 
