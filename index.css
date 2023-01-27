@@ -101,7 +101,7 @@ header h4 {
 
 .logoleft {
     /* margin-left: 1vw; */
-    margin-left: 1vw;
+    margin-left: 2vw;
     margin-top: 1.8vw;
     display: inline-block;
 }
@@ -208,11 +208,11 @@ header h4 {
 } */
 
 .links {
-    position: relative;
+    
     word-spacing: 2.8vw;
     text-align: center;
-    margin-left: 64vw;
-    margin-top: -48.3vw;
+    margin-left: 62vw;
+    margin-top: -2vw;
     color: #222222;
 }
 
@@ -221,6 +221,7 @@ header h4 {
     color: #222222;
     font-size: 1vw;
     font-family: "apercu", sans-serif;
+    display: inline-block;
     position: relative;
 }
 
@@ -300,20 +301,19 @@ header h4 {
     }
 
     .links {
-        position: relative;
         word-spacing: 2.8vw;
         text-align: center;
-        margin-left: -3vw;
-        margin-top: -155vw;
-        transform: none;
+        margin-left: 62vw;
+        margin-top: -2vw;
         color: #222222;
     }
     
     .link {
         font-weight: bold;
         color: #222222;
-        font-size: 2vw;
+        font-size: 1vw;
         font-family: "apercu", sans-serif;
+        display: inline-block;
         position: relative;
     }
 
