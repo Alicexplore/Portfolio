@@ -273,22 +273,13 @@ header h4 {
         display: none;
     }
 
-    /* .desktop {
-        display: block;
-        margin-top: -15vw;
-        margin-left: 15vw;
-        font-size: 3vw;
-        color: #222222;
-        font-weight: bold;
-        font-family: "apercu", sans-serif;
-    } */
     
     .links {
         position: relative;
         word-spacing: 2.8vw;
         text-align: center;
         margin-left: -3vw;
-        margin-top: -75vw;
+        margin-top: -70vw;
         transform: none;
         color: #222222;
     }
@@ -300,6 +291,17 @@ header h4 {
         font-family: "apercu", sans-serif;
         position: relative;
     }
+
+    .desktop {
+        display: block;
+        margin-top: -13vw;
+        margin-left: 15vw;
+        font-size: 2.7vw;
+        color: #222222;
+        font-weight: bold;
+        font-family: "apercu", sans-serif;
+    }
+    
 
     .span2 {
         margin-top: 30vw;
@@ -318,20 +320,19 @@ header h4 {
     }
 
     .myname {
-        margin-left: 15vw;
+        display: none;
+        /* margin-left: 15vw;
         margin-top: -15vw;
         font-size: 3.5vw; 
         color: #222222;
         font-weight: bold;
         font-family: "apercu", sans-serif;
         position: absolute;
-        line-height: 10px;
+        line-height: 10px; */
     }
 
     .hand {
-        margin-top: -2vw;
-        margin-left: 13vw;
-        width: 50%;
+        display: none;
     }
 
     .rights {
@@ -354,7 +355,6 @@ header h4 {
         margin-left: 17vw;
         font-weight: bold;
         color: #222222;
-        position: fixed;
     }
 
     .littlearrowlink {
