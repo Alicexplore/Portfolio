@@ -84,6 +84,8 @@ h1 {
 header {
     width: 100%;
     display: inline-block;
+    margin-top: 1vw;
+    margin-left: 1vw;
 }
 
 header h4 {
@@ -149,7 +151,7 @@ header h4 {
 }
 
 .span2 {
-    margin-top: 10vw;
+    margin-top: 9vw;
     margin-left: 22vw;
     font-size: 10vw;
     text-align: left;
@@ -194,7 +196,7 @@ header h4 {
     word-spacing: 2.8vw;
     text-align: left;
     margin-left: -94vw;
-    margin-top: -108.3vw;
+    margin-top: -109.5vw;
     transform: rotate(-90deg);
     color: #222222;
 }
@@ -227,11 +229,11 @@ header h4 {
   }
 
 .contact {
-    position: fixed;
+    display: inline-block;
     text-align: right;
     font-family: "apercu", sans-serif;
     font-size: 1vw;
-    margin-top: -4.5vw;
+    margin-top: -5.5vw;
     margin-left: 80vw;
     font-weight: bold;
     color: #222222;
@@ -247,7 +249,7 @@ header h4 {
     font-family: "apercu", sans-serif;
     font-size: 0.8vw;
     line-height: 0.7vw;
-    margin-top: -1vw;
+    margin-top: -1.5vw;
     margin-left: 3.3vw;
     font-weight: bold;
     color: #222222;
@@ -265,6 +267,7 @@ header h4 {
     width: 6%;
 }
 
+/*////////////////////////////   RESPONSIV   //////////////////////////////////*/
 
 
 @media (max-width: 600px) {
