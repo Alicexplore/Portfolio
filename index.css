@@ -337,7 +337,7 @@ header h4 {
     
 
     .span2 {
-        margin-top: 30vw;
+        margin-top: 20vw;
         margin-left: 12vw;
         font-size: 16vw;
         text-align: left;
@@ -365,7 +365,10 @@ header h4 {
     }
 
     .hand {
-        display: none;
+        position: absolute;
+        margin-top: 32vw;
+        margin-left: 42vw;  
+        width: 50%;
     }
 
     .rights {
@@ -374,7 +377,7 @@ header h4 {
         font-family: "apercu", sans-serif;
         font-size: 2vw;
         line-height: 2vw;
-        margin-top: 80vw;
+        margin-top: 90vw;
         margin-left:10vw;
         font-weight: bold;
         color: #222222;
@@ -384,7 +387,7 @@ header h4 {
         text-align: right;
         font-family: "apercu", sans-serif;
         font-size: 5vw;
-        margin-top: 64vw;
+        margin-top: 74vw;
         margin-left: 18vw;
         font-weight: bold;
         color: #222222;
