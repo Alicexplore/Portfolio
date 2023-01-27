@@ -102,6 +102,7 @@ header h4 {
 .logoleft {
     /* margin-left: 1vw; */
     margin-left: 1vw;
+    margin-top: 1.8vw;
     display: inline-block;
 }
 
@@ -184,20 +185,34 @@ header h4 {
     display: none;
 }
 
-.hand {
+/* .hand {
     position: absolute;
     margin-top: -42vw;
-    margin-left: 65vw;
-   
+    margin-left: 65vw;  
+} */
+
+.hand {
+    position: absolute;
+    margin-top: -32.5vw;
+    margin-left: 63vw;  
 }
 
-.links {
+/* .links {
     position: relative;
     word-spacing: 2.8vw;
     text-align: left;
     margin-left: -94vw;
     margin-top: -109.5vw;
     transform: rotate(-90deg);
+    color: #222222;
+} */
+
+.links {
+    position: relative;
+    word-spacing: 2.8vw;
+    text-align: center;
+    margin-left: 64vw;
+    margin-top: -48.3vw;
     color: #222222;
 }
 
@@ -235,7 +250,7 @@ header h4 {
     line-height: 1.6vw;
     font-size: 1.5vw;
     margin-top: -7vw;
-    margin-left: 78vw;
+    margin-left: 76vw;
     font-weight: bold;
     color: #222222;
 }
@@ -246,7 +261,6 @@ header h4 {
 
 .rights {
     position: absolute;
-    text-align: right;
     font-family: "apercu", sans-serif;
     font-size: 0.8vw;
     line-height: 0.7vw;
@@ -301,6 +315,14 @@ header h4 {
         font-size: 2vw;
         font-family: "apercu", sans-serif;
         position: relative;
+    }
+
+    .link:before {
+        display: none;
+    }
+
+    .link:hover::before {
+        display: none;
     }
 
     .desktop {
