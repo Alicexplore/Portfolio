@@ -227,14 +227,14 @@ header h4 {
   }
 
 .contact {
+    position: fixed;
     text-align: right;
     font-family: "apercu", sans-serif;
     font-size: 1vw;
-    margin-top: -4vw;
-    margin-left: 82vw;
+    margin-top: -4.5vw;
+    margin-left: 80vw;
     font-weight: bold;
     color: #222222;
-    position: fixed;
 }
 
 .arrow {
@@ -247,7 +247,7 @@ header h4 {
     font-family: "apercu", sans-serif;
     font-size: 0.8vw;
     line-height: 0.7vw;
-    margin-top: 0vw;
+    margin-top: -1vw;
     margin-left: 3.3vw;
     font-weight: bold;
     color: #222222;
