@@ -267,16 +267,23 @@ header h4 {
     width: 6%;
 }
 
-/*////////////////////////////   RESPONSIV   //////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////   RESPONSIV   ///////////////////////////////////////////////////////////////////////////////////////*/
 
 
 @media (max-width: 600px) {
+    
+
+    h1 {
+        font-size: 5vw; 
+        font-family: "apercu", sans-serif;
+        color: #222222;
+        align-items: center;
+    }
 
     header {
         display: none;
     }
 
-    
     .links {
         position: relative;
         word-spacing: 2.8vw;
