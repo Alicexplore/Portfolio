@@ -195,6 +195,7 @@ header h4 {
     position: absolute;
     margin-top: -32.5vw;
     margin-left: 63vw;  
+    /* -webkit-transform: rotate(20deg) skewY(20deg);  */
 }
 
 /* .links {
@@ -392,7 +393,7 @@ header h4 {
         font-weight: bold;
         color: #222222;
     }
-
+    
     .littlearrowlink {
         width: 6%;
     }

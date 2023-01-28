@@ -11,6 +11,8 @@ body {
 header {
     width: 100%;
     display: inline-block;
+    margin-top: 1vw;
+    margin-left: 1vw;
 }
 
 header h4 {
@@ -26,19 +28,17 @@ header h4 {
 
 .logoleft {
     /* margin-left: 1vw; */
-    margin-left: 1vw;
+    margin-left: 2vw;
+    margin-top: 1.8vw;
     display: inline-block;
 }
 
-
-
 .links {
-    position: relative;
+    
     word-spacing: 2.8vw;
-    text-align: left;
-    margin-left: -94vw;
-    margin-top: -62.8vw;
-    transform: rotate(-90deg);
+    text-align: center;
+    margin-left: 62vw;
+    margin-top: -2vw;
     color: #222222;
 }
 
@@ -47,6 +47,7 @@ header h4 {
     color: #222222;
     font-size: 1vw;
     font-family: "apercu", sans-serif;
+    display: inline-block;
     position: relative;
 }
 
@@ -67,11 +68,10 @@ header h4 {
 .link:hover::before {
     transform-origin: top;
     transform: scaleX(1);
-}
+  }
 
 .article {
-    margin-top: 71vw;
-    gap: -30vw;
+    margin-top: 16vw;
 }
 
 .win1a {
