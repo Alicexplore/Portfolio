@@ -185,28 +185,12 @@ header h4 {
     display: none;
 }
 
-/* .hand {
-    position: absolute;
-    margin-top: -42vw;
-    margin-left: 65vw;  
-} */
-
 .hand {
     position: absolute;
     margin-top: -32.5vw;
     margin-left: 63vw;  
     /* -webkit-transform: rotate(20deg) skewY(20deg);  */
 }
-
-/* .links {
-    position: relative;
-    word-spacing: 2.8vw;
-    text-align: left;
-    margin-left: -94vw;
-    margin-top: -109.5vw;
-    transform: rotate(-90deg);
-    color: #222222;
-} */
 
 .links {
     
@@ -284,7 +268,7 @@ header h4 {
     width: 6%;
 }
 
-/*///////////////////////////////////////////////////////////////////////////   RESPONSIV   ///////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
 
 
 @media (max-width: 600px) {
