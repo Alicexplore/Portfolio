@@ -185,6 +185,31 @@ header h4 {
     display: none;
 }
 
+/* .container {
+    position: relative;
+  }
+  
+  .container .popup {
+    position: absolute;
+    left: 10vw;
+    top: -8.2vw;
+    transform: translateY(-50%);
+    background-color: #222222;
+    color: #f2f2f2;
+    width: 350px;
+    height: 50px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+  }
+  
+  .container:hover .popup {
+    opacity: 1;
+  } */
+
 .hand {
     position: absolute;
     margin-top: -32.5vw;
@@ -193,7 +218,6 @@ header h4 {
 }
 
 .links {
-    
     word-spacing: 2.8vw;
     text-align: center;
     margin-left: 71vw;
@@ -235,8 +259,8 @@ header h4 {
     font-family: "apercu", sans-serif;
     line-height: 1.6vw;
     font-size: 1.5vw;
-    margin-top: -7.5vw;
-    margin-left: 76vw;
+    margin-top: -7vw;
+    margin-left: 75vw;
     font-weight: bold;
     color: #222222;
 }
@@ -319,6 +343,10 @@ header h4 {
         font-weight: bold;
         font-family: "apercu", sans-serif;
     }
+
+    .container .popup {
+        display: none;
+      }
     
 
     .span2 {
@@ -373,9 +401,10 @@ header h4 {
         font-family: "apercu", sans-serif;
         font-size: 5vw;
         margin-top: 74vw;
-        margin-left: 18vw;
+        margin-left: 15vw;
         font-weight: bold;
         color: #222222;
+        display: inline-block;
     }
     
     .littlearrowlink {

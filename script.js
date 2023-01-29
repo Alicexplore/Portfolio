@@ -31,17 +31,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
-// let imageContainer = document.querySelector('.image-container');
-// let popup = document.querySelector('.popup');
-
-// imageContainer.addEventListener('mouseover', function() {
-//   popup.style.display = "block";
-// });
-
-// imageContainer.addEventListener('mouseout', function() {
-//   popup.style.display = "none";
-// });
-
 
 
 // window pop up
