@@ -309,32 +309,24 @@ header h4 {
         display: none;
     }
 
-    .links {
+    .linksresponsiv {
         word-spacing: 2.8vw;
         text-align: center;
-        margin-left: 62vw;
-        margin-top: -2vw;
+        margin-top: -13vw;
+        margin-left: 30vw;
         color: #222222;
+        position: absolute;
     }
     
-    .link {
+    .linkresponsiv {
+        
         font-weight: bold;
         color: #222222;
-        font-size: 1vw;
+        font-size: 3vw;
         font-family: "apercu", sans-serif;
-        display: inline-block;
-        position: relative;
     }
 
-    .link:before {
-        display: none;
-    }
-
-    .link:hover::before {
-        display: none;
-    }
-
-    .desktop {
+    /* .desktop {
         display: block;
         margin-top: -13vw;
         margin-left: 15vw;
@@ -342,13 +334,12 @@ header h4 {
         color: #222222;
         font-weight: bold;
         font-family: "apercu", sans-serif;
-    }
+    } */
 
     .container .popup {
         display: none;
       }
     
-
     .span2 {
         margin-top: 20vw;
         margin-left: 12vw;
@@ -379,7 +370,7 @@ header h4 {
 
     .hand {
         position: absolute;
-        margin-top: 32vw;
+        margin-top: 30vw;
         margin-left: 42vw;  
         width: 50%;
     }
@@ -390,7 +381,7 @@ header h4 {
         font-family: "apercu", sans-serif;
         font-size: 2vw;
         line-height: 2vw;
-        margin-top: 90vw;
+        margin-top: 88.5vw;
         margin-left:10vw;
         font-weight: bold;
         color: #222222;
@@ -400,7 +391,7 @@ header h4 {
         text-align: right;
         font-family: "apercu", sans-serif;
         font-size: 5vw;
-        margin-top: 74vw;
+        margin-top: 72vw;
         margin-left: 17vw;
         font-weight: bold;
         color: #222222;
