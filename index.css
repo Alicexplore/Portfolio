@@ -357,15 +357,14 @@ header h4 {
     }
 
     .myname {
-        display: none;
-        /* margin-left: 15vw;
-        margin-top: -15vw;
-        font-size: 3.5vw; 
+        margin-left: 15vw;
+        margin-top: -14vw;
+        font-size: 3vw; 
         color: #222222;
         font-weight: bold;
         font-family: "apercu", sans-serif;
         position: absolute;
-        line-height: 10px; */
+        line-height: 10px; 
     }
 
     .hand {
