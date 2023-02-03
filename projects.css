@@ -191,4 +191,33 @@ video {
     outline-offset: 1px;
 }
 
+/*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
 
+@media (max-width: 600px) {
+    
+
+  .links {
+    word-spacing: 2.8vw;
+    text-align: center;
+    margin-left: 68vw;
+    margin-top: -6vw;
+    color: #222222;
+}
+
+  .link {
+    font-weight: bold;
+    color: #222222;
+    font-size: 1vw;
+    font-family: "apercu", sans-serif;
+    display: inline-block;
+}
+
+  .link:before{
+    display: none;
+}
+
+  .link:hover::before {
+    display: none;
+}
+
+}
