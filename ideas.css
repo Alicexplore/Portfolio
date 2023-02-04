@@ -176,20 +176,24 @@ video {
 
 @media (max-width: 600px) {
     
+    header {
+        display: none;
+    }
+    
+    header h4 {
+        display: none;
+    }
+    
+    .logoleft {
+        display: none;
+    }
+  
     .links {
-      word-spacing: 2.8vw;
-      text-align: center;
-      margin-left: 68vw;
-      margin-top: -6vw;
-      color: #222222;
+      display: none;
   }
   
     .link {
-      font-weight: bold;
-      color: #222222;
-      font-size: 1vw;
-      font-family: "apercu", sans-serif;
-      display: inline-block;
+     display: none;
   }
   
     .link:before{
@@ -199,7 +203,57 @@ video {
     .link:hover::before {
       display: none;
   }
-
+  
+  .linksresponsiv {
+    display: inline;
+    word-spacing: 2.8vw;
+    text-align: center;
+    margin-top: -15vw;
+    margin-left: 29vw;
+    color: #222222;
+    position: absolute;
+  }
+  
+   .linkresponsiv {
+    font-weight: bold;
+    color: #222222;
+    font-size: 2.2vw;
+    font-family: "apercu", sans-serif;
+  }
+  
+  .article {
+    margin-top: 20vw;
+  }
+  
+  .win1a {
+    color: #222222;
+    font-family: "apercu", sans-serif;
+    text-align: left;
+    margin-left: 9.5vw;
+    font-size: 6vw;   
+  }
+  
+  .win1b {
+    color: #222222;
+    font-family: "apercu", sans-serif;
+    text-align: left;
+    margin-left: 18vw;
+    margin-top: -4vw;
+    font-size: 2vw;   
+  }
+  
+  .win1c {
+    text-align: left;
+    color: #222222;
+    font-family: "apercu", sans-serif;
+    font-size: 2vw;
+    margin-left: 18vw;
+    margin-right: 15vw;
+    justify-content: left;
+    text-align: left;
+    margin-top: 5vw;
+  }
+  
   .topbutton {
     position: fixed;
     bottom: 20px;
@@ -224,12 +278,11 @@ video {
     overflow: hidden;
     padding: 10px 18px;
     text-decoration: none;
-    text-overflow: ellipsis;
-    transition: all .14s ease-out;
+    /* text-overflow: ellipsis; */
+    /* transition: all .14s ease-out; */
     white-space: nowrap;
   }
   
+  
   }
-
-
-
+  
