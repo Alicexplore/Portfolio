@@ -36,7 +36,7 @@ header h4 {
   word-spacing: 2.8vw;
   text-align: center;
   margin-left: 71vw;
-  margin-top: -2vw;
+  margin-top: -2.5vw;
   color: #222222;
 }
 
@@ -67,6 +67,10 @@ header h4 {
     transform-origin: top;
     transform: scaleX(1);
   }
+
+.linksresponsiv {
+    display: none;
+  }  
 
 .article {
     margin-top: 10vw;
