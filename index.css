@@ -126,13 +126,13 @@ header h4 {
     margin-top: -32.5vw;
     margin-left: 63vw;  
     /* -webkit-transform: rotate(20deg) skewY(20deg);  */
-    background:none;
+    transform: rotate(0rad);
+   transition: 3s;
 }
 
 .hand:hover{
     transform: rotate(6.280rad);
     transition: 3s;
-
 }
 
 .links {
