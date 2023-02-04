@@ -7,6 +7,74 @@ body {
     background-color: #f2f2f2; 
 }
 
+/* *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup{
+    
+    background-image: url(./IMG/gradient.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 80%;
+    top: 49%;
+    
+    font-family: "apercu", sans-serif;
+    color: #222222;
+   
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    z-index: 2;
+}
+
+.popup__overlay {
+	-webkit-filter: blur(4px);
+	filter: blur(4px);
+	transition: .3s ease-in-out;
+}
+
+.popup__overlay:hover {
+    -webkit-filter: blur(0);
+	filter: blur(0);
+    cursor: pointer;
+}
+
+.littlelogo {
+    text-align: center;
+    margin-top: -2vw; 
+    width: 45%;
+    line-height: 25px;
+}
+
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.popup p{
+    font-size: 0.9vw;
+    margin: 20px 12px;
+    margin-top: 50px;  
+    line-height: 1vw;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
 h1 {
     font-size: 1.7vw; 
     font-family: "apercu", sans-serif;
@@ -32,6 +100,7 @@ header h4 {
 }
 
 .logoleft {
+    /* margin-left: 1vw; */
     margin-left: 2vw;
     margin-top: 1.8vw;
     display: inline-block;
@@ -214,7 +283,6 @@ header h4 {
         font-family: "apercu", sans-serif;
         color: #222222;
         align-items: center;
-        margin-top: 10vw;
     }
 
     header {
@@ -225,8 +293,8 @@ header h4 {
         display: inline;
         word-spacing: 2.8vw;
         text-align: center;
-        margin-top: 10vw;
-        margin-left: 30vw;
+        margin-top: -13vw;
+        margin-left: 28vw;
         color: #222222;
         position: absolute;
     }
@@ -257,18 +325,16 @@ header h4 {
         margin-top: 20vw;
         margin-left: 12vw;
         font-size: 16vw;
-        text-align: center;
+        text-align: left;
         font-family: "apercu", sans-serif;
         font-weight: bold; 
         line-height: 13vw; 
         color: #222222;
-        position: absolute;
     }
     
     .arrowtitle {
-        /* margin-top: 4vw;
-        margin-left: 1vw; */
-        display: none;
+        margin-top: 4vw;
+        margin-left: 1vw;
     }
 
     .myname {
@@ -277,9 +343,9 @@ header h4 {
 
     .hand {
         position: absolute;
-        margin-top: 100vw;
-        margin-left: 33vw;  
-        width: 60%;
+        margin-top: 30vw;
+        margin-left: 42vw;  
+        width: 50%;
     }
 
     .rights {
@@ -288,7 +354,7 @@ header h4 {
         font-family: "apercu", sans-serif;
         font-size: 2vw;
         line-height: 2vw;
-        margin-top: 161vw;
+        margin-top: 88.5vw;
         margin-left:10vw;
         font-weight: bold;
         color: #222222;
@@ -298,12 +364,11 @@ header h4 {
         text-align: right;
         font-family: "apercu", sans-serif;
         font-size: 5vw;
-        margin-top: 145vw;
+        margin-top: 72vw;
         margin-left: 17vw;
         font-weight: bold;
         color: #222222;
         display: inline-block;
-        position: absolute;
     }
     
     .littlearrowlink {
