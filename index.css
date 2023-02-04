@@ -121,19 +121,31 @@ header h4 {
 }
 
 
-.hand {
+/* .hand {
     position: absolute;
     margin-top: -32.5vw;
     margin-left: 63vw;  
-    /* -webkit-transform: rotate(20deg) skewY(20deg);  */
     transform: rotate(0rad);
-   transition: 4s;
+    transition: 4s;
 }
 
 .hand:hover{
     transform: rotate(6.280rad);
     transition: 4s;
-}
+} */
+
+.hand {
+    position: absolute;
+    margin-top: -32.5vw;
+    margin-left: 63vw; 
+    transition: transform 3s ease-in-out;
+  }
+  
+.hand:hover {
+    transform: rotateY(360deg);
+    transition: transform 3s ease-in-out;
+  }
+
 
 .links {
     word-spacing: 2.8vw;
