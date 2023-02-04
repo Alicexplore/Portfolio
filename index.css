@@ -185,30 +185,10 @@ header h4 {
     display: none;
 }
 
-/* .container {
-    position: relative;
-  }
-  
-  .container .popup {
-    position: absolute;
-    left: 10vw;
-    top: -8.2vw;
-    transform: translateY(-50%);
-    background-color: #222222;
-    color: #f2f2f2;
-    width: 350px;
-    height: 50px;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    z-index: 3;
-  }
-  
-  .container:hover .popup {
-    opacity: 1;
-  } */
+.linksresponsiv {
+    display: none;
+}
+
 
 .hand {
     position: absolute;
@@ -310,10 +290,11 @@ header h4 {
     }
 
     .linksresponsiv {
+        display: inline;
         word-spacing: 2.8vw;
         text-align: center;
         margin-top: -13vw;
-        margin-left: 30vw;
+        margin-left: 28vw;
         color: #222222;
         position: absolute;
     }
@@ -357,14 +338,7 @@ header h4 {
     }
 
     .myname {
-        margin-left: 15vw;
-        margin-top: -14vw;
-        font-size: 3vw; 
-        color: #222222;
-        font-weight: bold;
-        font-family: "apercu", sans-serif;
-        position: absolute;
-        line-height: 10px; 
+        display: none;
     }
 
     .hand {
@@ -403,3 +377,8 @@ header h4 {
 }
 
 
+@media (orientation: landscape) {
+    
+    
+
+}
