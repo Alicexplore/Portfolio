@@ -300,10 +300,11 @@ header h4 {
         width: 60%;
         transform: none;
         transition: none;
-    }
+        }
     
-    .hand:hover{
-        display: none;
+    .hand:hover {
+        transform: rotateY(360deg);
+        transition: transform 3s ease-in-out;
     }
 
     .rights {
