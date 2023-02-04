@@ -298,8 +298,7 @@ header h4 {
         margin-top: 100vw;
         margin-left: 33vw;  
         width: 60%;
-        transform: none;
-        transition: none;
+        transition: transform 3s ease-in-out;
         }
     
     .hand:hover {
