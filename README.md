@@ -2,7 +2,7 @@
 
 This is my portfolio which will showcase everything I have accomplished since joining @adatechschool in October 2022.
 <br />
-Hope you'll enjoy its content! 👩🏻‍💻
+Hope you'll enjoy its content 👩🏻‍💻
 
 <br />
 
