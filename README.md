@@ -17,7 +17,7 @@ Postscript: This design comes straight from my mind but I am heavily (daily) ins
 
 ## Preview
 
-[The_Website_Project.webm](https://user-images.githubusercontent.com/102388803/216825266-3a7e0ba8-c9c5-4d4f-8e54-49a07d6e2a05.webm)
+![WEBSITEGOOD](https://user-images.githubusercontent.com/102388803/216839125-738ab6cd-53a5-49de-bded-bf9900dd1e7d.gif)
 
 <br />
 
