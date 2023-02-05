@@ -23,7 +23,7 @@ Postscript: This design comes straight from my mind but I am heavily (daily) ins
 
 ### Languages & tools
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,vscode,ai)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,vscode,ai,github,git)](https://skillicons.dev)
 
 
 
