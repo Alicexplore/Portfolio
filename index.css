@@ -222,6 +222,24 @@ header h4 {
     width: 6%;
 }
 
+#page-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  body {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  body.fade-out {
+    opacity: 0;
+  }
+
 /*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
 
 

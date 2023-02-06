@@ -1,3 +1,6 @@
+//////////////////////////////////////////////////////////////////////////////////////INTRO/////////////////////////////////////////////////////////////////////////////////////
+
+
 let intro = document.querySelector('.intro')
 let logo = document.querySelector('.logo-header')
 let logoSpan = document.querySelectorAll('.logo')
@@ -27,20 +30,15 @@ window.addEventListener('DOMContentLoaded', () => {
     })  
 });
 
-//////////////////////////////////////////////////////////////////////////////////////POP UP ON IMAGE/////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////HTML TRANSITIONS/////////////////////////////////////////////////////////////////////////////////////
 
 
-// window pop up
-// window.addEventListener("load", function(){
-//     setTimeout(
-//         function open(event){
-//             document.querySelector(".popup").style.display = "block";
-//         },
-//         3800
-//     )
-//   });
-//   document.querySelector("#close").addEventListener("click", function(){
-//     document.querySelector(".popup").style.display = "none";
-//   });
+var link = document.querySelector("#page-link");
 
-
+link.addEventListener("click", function(event) {
+  event.preventDefault();
+  document.body.classList.add("fade-out");
+  setTimeout(function() {
+    window.location = link.href;
+  }, 500);
+});
