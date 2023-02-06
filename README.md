@@ -2,7 +2,7 @@
 
 This is my portfolio which will showcase everything I have accomplished since joining @adatechschool in October 2022.
 <br />
-Hope you'll enjoy its content! 👩🏻‍💻
+Hope you'll enjoy its content 👩🏻‍💻
 
 <br />
 
@@ -11,9 +11,7 @@ This is my very first website, the first time that I am truly diving into CSS cr
 <br /><br />
 It’s not flawless, no doubt about it, but I am optimistic that in my learning journey, this will serve as a foundation for something greater, surpassing the ton of white hair you can see appearing when trying to fix css. 🚀
 <br /><br />
-Postscript: This design comes straight from my mind but I am heavily (daily) inspired by the website Awwwards, for which I have a great and strong interest in.
 
-<br />
 
 ## Preview
 
