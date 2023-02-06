@@ -144,6 +144,7 @@ header h4 {
 .hand:hover {
     transform: rotateY(360deg);
     transition: transform 3s ease-in-out;
+
   }
 
 
