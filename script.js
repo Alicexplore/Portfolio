@@ -32,13 +32,3 @@ window.addEventListener('DOMContentLoaded', () => {
 
 //////////////////////////////////////////////////////////////////////////////////////HTML TRANSITIONS/////////////////////////////////////////////////////////////////////////////////////
 
-
-var link = document.querySelector("#page-link");
-
-link.addEventListener("click", function(event) {
-  event.preventDefault();
-  document.body.classList.add("fade-out");
-  setTimeout(function() {
-    window.location = link.href;
-  }, 500);
-});
