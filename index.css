@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2; 
+    background-color: #F2F2F2; 
 }
 
 h1 {
@@ -222,6 +222,24 @@ header h4 {
 .littlearrowlink {
     width: 6%;
 }
+
+/* #shape {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -39vw;
+    margin-left: 62vw;
+    background: linear-gradient(to right, #87cefa, #ff69b4);
+  } */
+  
+  /* .inner-shape {
+    width: 400px;
+    height: 400px;
+    background-color: #222222;
+    background: radial-gradient(ellipse at center, #87cefa, #ff69b4);
+  } */
 
 /*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
 
