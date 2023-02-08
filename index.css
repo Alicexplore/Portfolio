@@ -83,7 +83,7 @@ header h4 {
 }
 
 .span2 {
-    margin-top: 9vw;
+    margin-top: 10vw;
     margin-left: 22vw;
     font-size: 10vw;
     text-align: left;
@@ -102,7 +102,7 @@ header h4 {
 
 .myname {
     margin-left: 11vw;
-    margin-top: -9vw;
+    margin-top: -8vw;
     font-size: 1.85vw; /*1.28;*/
     color: #222222;
     font-weight: bold;
@@ -119,20 +119,6 @@ header h4 {
 .linksresponsiv {
     display: none;
 }
-
-
-/* .hand {
-    position: absolute;
-    margin-top: -32.5vw;
-    margin-left: 63vw;  
-    transform: rotate(0rad);
-    transition: 4s;
-}
-
-.hand:hover{
-    transform: rotate(6.280rad);
-    transition: 4s;
-} */
 
 .hand {
     position: absolute;
@@ -225,20 +211,35 @@ header h4 {
 
 /* #shape {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    display: flex;
+    width: 27vw;
+    height: 27vw;
     border-radius: 50%;
-    overflow: hidden;
-    margin-top: -39vw;
+    margin-top: -36.5vw;
     margin-left: 62vw;
     background: linear-gradient(to right, #87cefa, #ff69b4);
-  } */
-  
-  /* .inner-shape {
-    width: 400px;
-    height: 400px;
-    background-color: #222222;
-    background: radial-gradient(ellipse at center, #87cefa, #ff69b4);
+  }
+
+#shape_2 {
+    position: absolute;
+    display: flex;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin-top: -38vw;
+    margin-left: 60vw;
+    background: linear-gradient(to right, #87cefa, #ff69b4);
+  }
+
+#shape_3 {
+    position: absolute;
+    display: flex;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    margin-top: -42vw;
+    margin-left: 88vw;
+    background: linear-gradient(to right, #87cefa, #ff69b4);
   } */
 
 /*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
