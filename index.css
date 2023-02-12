@@ -93,6 +93,7 @@ header h4 {
     line-height: 8.5vw; 
     color: #222222;
     z-index: 1;
+    /* text-shadow: 1px 1px #ffffff, 2px 2px #ffffff, 3px 3px #ffffff, 4px 4px #ffffff, 5px 5px #ffffff, 6px 6px #ffffff; */
 }
 
 .arrowtitle {
@@ -209,7 +210,7 @@ header h4 {
     width: 6%;
 }
 
-/* #shape {
+#shape {
     position: absolute;
     display: flex;
     width: 27vw;
@@ -240,7 +241,7 @@ header h4 {
     margin-top: -42vw;
     margin-left: 88vw;
     background: linear-gradient(to right, #87cefa, #ff69b4);
-  } */
+  }
 
 /*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
 
