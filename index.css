@@ -210,7 +210,7 @@ header h4 {
     width: 6%;
 }
 
-#shape {
+/* #shape {
     position: absolute;
     display: flex;
     width: 27vw;
@@ -241,7 +241,7 @@ header h4 {
     margin-top: -42vw;
     margin-left: 88vw;
     background: linear-gradient(to right, #87cefa, #ff69b4);
-  }
+  } */
 
 /*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
 
