@@ -86,7 +86,7 @@ header h4 {
     position: absolute;
     margin-left: 39vw;
     margin-top: -41vw;
-    transform: rotate(-180deg);
+    /* transform: rotate(-180deg); */
     z-index: -1;
 }
 
@@ -288,11 +288,11 @@ header h4 {
 
     .imagewater {
         position: absolute;
-        margin-left: -7vw;
-        margin-top: -3vw;
-        transform: rotate(180deg);
+        margin-left: -55vw;
+        margin-top: -15vw;
+        transform: rotate(90deg);
         z-index: -1;
-        width: 90%;
+        width: 110%;
     }
 
     .container .popup {
