@@ -7,6 +7,11 @@ body {
     background-color: #f2f2f2; 
 }
 
+body.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
 
 header {
     width: 100%;
@@ -47,6 +52,7 @@ header h4 {
     font-family: "apercu", sans-serif;
     display: inline-block;
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 .link:before{

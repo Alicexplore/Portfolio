@@ -7,6 +7,11 @@ body {
     background-color: #F2F2F2; 
 }
 
+body.fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+
 h1 {
     font-size: 1.7vw; 
     font-family: "apercu", sans-serif;
@@ -167,6 +172,7 @@ header h4 {
     font-family: "apercu", sans-serif;
     display: inline-block;
     position: relative;
+    transition: all 0.3s ease-in-out;
 }
 
 .link:before{
