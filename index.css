@@ -93,7 +93,7 @@ header h4 {
 .imagewater {
     position: absolute;
     margin-left: 30vw;
-    margin-top: -17vw;
+    margin-top: -18vw;
     transform: rotate(-90deg);
     z-index: -1;
     width: 42%;
@@ -298,8 +298,8 @@ header h4 {
     .imagewater {
         position: absolute;
         margin-left: -70vw;
-        margin-top: 3vw;
-        transform: rotate(deg);
+        margin-top: 2vw;
+        transform: rotate(90deg);
         z-index: -1;
         width: 110%;
     }
