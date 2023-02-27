@@ -326,12 +326,19 @@ header h4 {
         display: none;
     }
 
+    .logoonleft {
+        display: block;
+        margin-left: 10vw;
+        margin-top: 30w;
+        display: inline-block;
+    }
+
     .linksresponsiv {
         display: inline;
         word-spacing: 2.8vw;
         text-align: center;
-        margin-top: 57vw;
-        margin-left: 12vw;
+        margin-top: 68vw;
+        margin-left: 10vw;
         color: #222222;
         position: absolute;
     }
@@ -343,15 +350,6 @@ header h4 {
         font-family: "apercu", sans-serif;
     }
 
-    .imagewater {
-        position: absolute;
-        margin-left: -70vw;
-        margin-top: 2vw;
-        transform: rotate(90deg);
-        z-index: -1;
-        width: 110%;
-    }
-
     .container .popup {
         display: none;
       }
@@ -359,14 +357,42 @@ header h4 {
     .span2 {
         margin-top: 15vw;
         margin-left: 9vw;
-        font-size: 17vw;
+        font-size: 14vw;
         text-align: left;
         font-family: "apercu", sans-serif;
         font-weight: bold; 
-        line-height: 13.5vw; 
+        line-height: 12.5vw; 
         color: #222222;
         position: absolute;
     }
+
+    .span3 {
+        position: absolute;
+        margin-top: 140vw;
+        margin-left: 10vw;
+        font-size: 2vw;
+        text-align: left;
+        font-family: "apercu", sans-serif;
+        font-weight: bold;
+        line-height: 2.3vw; 
+        color: #222222;
+        z-index: 1;
+    }
+    
+    .span4 {
+        position: absolute;
+        margin-top: 148vw;
+        margin-left: 10vw;
+        font-size: 2vw;
+        padding: center;
+        text-align: left;
+        font-family: "apercu", sans-serif;
+        font-weight: bold;
+        line-height: 2.3vw; 
+        color: #222222;
+        z-index: 1;
+    }
+    
     
     .arrowtitle {
         /* margin-top: 4vw;
@@ -391,25 +417,16 @@ header h4 {
         transition: transform 3s ease-in-out;
     }
 
-    .rights {
-        position: absolute;
-        text-align: left;
-        font-family: "apercu", sans-serif;
-        font-size: 2vw;
-        line-height: 2vw;
-        margin-top: 161vw;
-        margin-left:10vw;
-        font-weight: bold;
-        color: #222222;
-    }
+  
 
     .contact {
         text-align: right;
         font-family: "apercu", sans-serif;
-        font-size: 5vw;
-        margin-top: 145vw;
-        margin-left: 19vw;
+        font-size: 6.5vw;
+        margin-top: 140vw;
+        margin-left: 55vw;
         font-weight: bold;
+        line-height: 5.8vw;
         color: #222222;
         display: inline-block;
         position: absolute;
