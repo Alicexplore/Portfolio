@@ -169,16 +169,18 @@ header h4 {
     margin-left: 1vw;
 }
 
-.myname {
-    margin-left: 11vw;
-    margin-top: -9vw;
-    font-size: 1.85vw; /*1.28;*/
-    color: #222222;
-    font-weight: bold;
-    font-family: "apercu", sans-serif;
-    z-index: 1;
+.plus {
     position: absolute;
-    line-height: 10px;
+    font-family: "apercu", sans-serif;
+    font-size: 13vw;
+    font-weight: 100;
+    margin-top: 10vw;
+    margin-left: 85vw;
+}
+
+.plus:hover {
+    transform: scale(1.1);
+    transition: transform 2s ease-in-out;
 }
 
 .desktop {
@@ -398,12 +400,19 @@ header h4 {
         color: #222222;
         z-index: 1;
     }
+
+    .plus {
+        display: none;
+    }
     
+    .plus:hover {
+        display: none;
+    }
     
     .arrowtitle {
-        /* margin-top: 4vw;
-        margin-left: 1vw; */
-        display: none;
+        position: absolute;
+        margin-top: 0.5vw;
+        margin-left: 1vw;
     }
 
     .myname {
