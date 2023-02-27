@@ -37,14 +37,29 @@ document.querySelectorAll('.link').forEach(link => {
       e.preventDefault();
   
       let href = this.getAttribute('href');
-  
-      // animate current page out of view
+
       document.querySelector('body').classList.add('fade-out');
   
       setTimeout(function() {
-        // load new page
+       
         window.location.href = href;
-      }, 500); // delay to allow for animation
+      }, 500); 
+  
+    });
+  });
+
+  document.querySelectorAll('.plus').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+  
+      let href = this.getAttribute('href');
+
+      document.querySelector('body').classList.add('fade-out');
+  
+      setTimeout(function() {
+       
+        window.location.href = href;
+      }, 500); 
   
     });
   });
