@@ -19,6 +19,10 @@ h1 {
     color: #222222;
 }
 
+.logoonleft {
+    display: none;
+}
+
 header {
     width: 100%;
     display: inline-block;
@@ -327,10 +331,12 @@ header h4 {
     }
 
     .logoonleft {
-        display: block;
-        margin-left: 10vw;
-        margin-top: 30w;
+        display: none;
+        /* margin-left: 30vw;
+        margin-top: 60w;
         display: inline-block;
+        width: 30%;
+        position: absolute; */
     }
 
     .linksresponsiv {
