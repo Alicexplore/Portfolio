@@ -221,12 +221,13 @@ header h4 {
     position: absolute;
     margin-top: -20vw;
     margin-left: 44.5vw;
-    font-size: 2vw;
+    text-align: justify;
+    font-size: 1.8vw;
     padding: center;
     text-align: left;
     font-family: "apercu", sans-serif;
     /* font-weight: bold; */
-    line-height: 2.7vw; 
+    line-height: 2.5vw; 
     color: #222222;
     z-index: 1;
 }
@@ -248,12 +249,12 @@ header h4 {
     position: absolute;
     margin-top: 1vw;
     margin-left: 44.5vw;
-    font-size: 2vw;
+    font-size: 1.8vw;
     padding: center;
     text-align: left;
     font-family: "apercu", sans-serif;
     /* font-weight: bold; */
-    line-height: 2.7vw; 
+    line-height: 2.5vw; 
     color: #222222;
     z-index: 1;
     margin-bottom: 15vw;
@@ -270,6 +271,7 @@ header h4 {
     font-size: 1vw;
     text-align: center;
     margin-bottom: 2vw; 
+    margin-top: 20vw;
 }
 
 .arrowtitle {
