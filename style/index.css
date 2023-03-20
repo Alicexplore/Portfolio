@@ -172,7 +172,7 @@ header h4 {
 
 .alicetitle {
     position: absolute;
-    margin-top: 53vw;
+    margin-top: 50vw;
     margin-right: 4.5vw;
     font-size: 10vw;
     text-align: right;
@@ -217,8 +217,7 @@ header h4 {
 }
 
 .span6 {
-    position: absolute;
-    margin-top: -20vw;
+    margin-top: -30.5vw;
     margin-left: 44.5vw;
     text-align: justify;
     font-size: 1.8vw;
@@ -260,9 +259,10 @@ header h4 {
 }
 
 .logo_ab {
-    width: 27%;
-    margin-top: 20vw;
-    margin-left: 7vw;
+    position: absolute;
+    width: 40%;
+    margin-top:10vw;
+    margin-left: 2vw;
 }
 
 .footer {
@@ -270,7 +270,7 @@ header h4 {
     font-size: 1vw;
     text-align: center;
     margin-bottom: 2vw; 
-    margin-top: 26vw;
+    margin-top: 10vw;
 }
 
 .arrowtitle {
