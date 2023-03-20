@@ -85,8 +85,9 @@ header h4 {
 .win1a {
     color: #222222;
     font-family: "apercu", sans-serif;
-    text-align: left;
-    margin-left: 9.5vw;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
     font-size: 5vw;   
 }
 
@@ -149,6 +150,34 @@ header h4 {
     outline-offset: 1px;
 }
 
+.arrowtitle {
+    position: absolute;
+    margin-top: -7.5vw;
+    margin-left: 77vw;
+    transform: rotate(134.5deg);
+}
+
+.cv {
+    width: 60%;
+    margin-top: 6vw;
+    margin-bottom: 10vw;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    margin-left: 21vw;
+}
+
+.linkcv {
+    position: absolute;
+    color: #222222;
+    font-family: "apercu", sans-serif;
+    font: bold;
+    font-size: 1.5vw;
+    margin-left: 45vw;
+    margin-top: 4vw;
+    margin-bottom: -6vw;
+}
+
 /*///////////////////////////////////////////////////////////////////////////   MEDIA QUERIES   ///////////////////////////////////////////////////////////////////////////////////////*/
 
 @media (max-width: 600px) {
@@ -205,8 +234,7 @@ header h4 {
 .win1a {
     color: #222222;
     font-family: "apercu", sans-serif;
-    text-align: left;
-    margin-left: 9.5vw;
+    text-align: center;
     font-size: 6vw;   
 }
 
@@ -259,7 +287,32 @@ header h4 {
     /* transition: all .14s ease-out; */
     white-space: nowrap;
   }
-  
+
+  .arrowtitle {
+    position: absolute;
+    margin-top: -8.5vw;
+    margin-left: 82vw;
+    transform: rotate(134.5deg);
+}
+
+.cv {
+    width: 60%;
+    margin-top: 10vw;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    margin-left: 21vw;
+}
+
+.linkcv {
+    position: absolute;
+    color: #222222;
+    font-family: "apercu", sans-serif;
+    font: bold;
+    font-size: 2vw;
+    margin-left: 43vw;
+    margin-top: 7vw;
+}
   
   }
 
