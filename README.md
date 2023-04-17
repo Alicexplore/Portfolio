@@ -1,5 +1,6 @@
-# Personnal Portfolio / Dark Mode ◼️◻️
+Personnal Portfolio  ◼️◻️
 
+# Personnal Portfolio  ◼️◻️
 <br />
 
 ## About this project
