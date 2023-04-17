@@ -1,4 +1,3 @@
-Personnal Portfolio  ◼️◻️
 
 # Personnal Portfolio  ◼️◻️
 <br />
