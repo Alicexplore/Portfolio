@@ -1,10 +1,13 @@
-# Portfolio
-#Personnal Portfolio / Dark Mode ◼️◻️
+# Personnal Portfolio / Dark Mode ◼️◻️
 
+<br />
 
 ## About this project
 
-I designed and developped, it was the occasion to discover motions & dark mode.
+<br />
+
+I designed and developped this portfolio, it was the occasion to discover motions & dark mode.
+
 <br />
 
 ## Languages & tools
