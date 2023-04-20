@@ -1,0 +1,14 @@
+AddType application/javascript .js
+AddType text/javascript .js
+
+# Activez la réécriture d'URL
+RewriteEngine On
+# Servez le bon type MIME pour les fichiers JavaScript
+AddType application/javascript .js
+AddType text/javascript .js
+# Gestion des routes React avec HTML5 History API
+# Redirigez toutes les requêtes non fichiers vers index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
