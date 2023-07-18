@@ -21,7 +21,7 @@ const Hero = () => {
                         <div className='font-inter font-light text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
                             <h4>Front-End & Design Enthusiast</h4>
                         </div>              
-                        <div className='flex items-center text-[1.2rem]'>
+                        {/* <div className='flex items-center text-[1.2rem]'>
                             <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='flex mx-7 lg:mx-8 my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2]  px-4 py-2 text-md rounded-sm 
                             border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
                           hover:bg-[#222222] duration-1000 cursor-pointer'>CONTACT</button></Link>
@@ -31,7 +31,7 @@ const Hero = () => {
                             <a href='https://github.com/Alicexplore' target='blank' className='flex mx-5 cursor-pointer'><button className='flex lg:mx-3 my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2]  px-4 py-2 text-md rounded-sm 
                             border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
                           hover:bg-[#222222] duration-1000 cursor-pointer'>GITHUB</button></a>
-                        </div>
+                        </div> */}
                     </motion.div>
                 </div>
                 <div>
