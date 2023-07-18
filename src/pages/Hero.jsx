@@ -21,12 +21,10 @@ const Hero = () => {
                         <div className='font-inter font-light text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
                             <h4>Front-End & Design Enthusiast</h4>
                         </div>              
-                        <div className='flex items-center -gap-1'>
-                            <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='flex mx-7 lg:mx-8 my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-md rounded-sm 
-                            border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
-                          hover:bg-[#222222] duration-500 cursor-pointer'>Contact Me</button></Link>
-                            <a href='https://www.linkedin.com/in/alicebergonhe/' target='blank' className='flex text-[2.9rem] -mx-2 cursor-pointer'><h1 className='hover:text-[#555555] dark:text-[#f2f2f2] hover:duration-1000'>LINKEDIN</h1></a>
-                            <a href='https://github.com/Alicexplore' target='blank' className='flex text-[2.9rem] mx-5 cursor-pointer'><ion-icon name="logo-github"></ion-icon></a>
+                        <div className='flex items-center gap-3 font-bold text-[2.6rem]'>
+                            <Link to='contact' activeClass='active' smooth={true} spy={true} ><h1 className=' flex mx-7 font-bold cursor-pointer hover:text-[#555555] duration-1000 dark:text-[#f2f2f2]'>CONTACT</h1></Link>
+                            <a href='https://www.linkedin.com/in/alicebergonhe/' target='blank' className='flex -mx-2 cursor-pointer'><h1 className='hover:text-[#555555] duration-1000 dark:text-[#f2f2f2]'>LINKEDIN</h1></a>
+                            <a href='https://github.com/Alicexplore' target='blank' className='flex mx-5 cursor-pointer'><h1 className='hover:text-[#555555] duration-1000 dark:text-[#f2f2f2]'>GITHUB</h1></a>
                         </div>
                     </motion.div>
                 </div>

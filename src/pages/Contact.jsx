@@ -41,7 +41,7 @@ export default function Contact() {
 
                     <Link to="https://www.linkedin.com/in/alicebergonhe/" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
                     border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
-                    hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Connect On Linkedin<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-github"></ion-icon></span></button></Link>  
+                    hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Connect On Linkedin<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-linkedin"></ion-icon></span></button></Link>  
 
                         
                     </div>
