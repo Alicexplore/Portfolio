@@ -23,8 +23,8 @@ export default function Contact() {
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0}}>
                     <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>CONTACT_</h1>
-                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[640px]'>I will start a front-end engineer apprenticeship 
-                    at Qonto in september for one year, but we can talk !</h2>
+                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px]'>I will start a front-end engineer apprenticeship 
+                    at Qonto in september for one year, <br /> but we can talk !</h2>
                     <p className='mb-6 text-justify max-w-[640px]'> 
                     If you have any questions, comments, or if you are interested in collaborating later, please do not hesitate
                     to contact me. I am always happy to meet new people and discuss topics related to computer science and
