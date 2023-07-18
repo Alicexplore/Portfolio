@@ -23,12 +23,12 @@ export default function Contact() {
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0}}>
                     <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>CONTACT_</h1>
-                    <h2 className='text-[1.4rem] md:text-3xl mb-4'>I will start a front-end engineer at Qonto, let's talk !</h2>
+                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[640px]'>I will start a front-end engineer apprenticeship 
+                    at Qonto in september for one year, but we can talk !</h2>
                     <p className='mb-6 text-justify max-w-[640px]'> 
-                    If you have any questions, comments, or if you are interested in collaborating, please do not hesitate
+                    If you have any questions, comments, or if you are interested in collaborating later, please do not hesitate
                     to contact me. I am always happy to meet new people and discuss topics related to computer science and
-                    web development. Currently, I am actively seeking an apprenticeship as a developer, but I am also open 
-                    to receiving advice from experienced professionals in the field.
+                    web development, I am also open to receiving advice from experienced professionals in the field.
                     </p>
                     <div className='grid grid-rows-1 place-items-left lg:grid-cols-3'>
                     <Link to="mailto:alicebergonhe@gmail.com" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
