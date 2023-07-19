@@ -15,7 +15,7 @@ export default function Projects() {
 
   return (
 
-    <div className='section px-7 py-20  bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] h-auto' id='projects' ref={ref}>
+    <div className='section px-7 py-20  bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-auto' id='projects' ref={ref}>
         <div className='container mx-auto'>
             <motion.div
                 variants={fadeIn('up', 0.3)}
@@ -48,7 +48,7 @@ export default function Projects() {
                             I am currently working on the back-end side.
                             </p>
                             <Link to="https://github.com/Alicexplore/The_Famiglia_Project" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
-                            border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
+                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                             hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>See On Github <span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
                         </motion.div>
                     </div>
@@ -77,7 +77,7 @@ export default function Projects() {
                             I designed the project and I am currently working on the front part.
                             </p>
                             <Link to="https://github.com/Alicexplore/The_Sneakers_Project" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
-                            border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
+                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                             hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>See On Github <span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
                         </motion.div>
                     </div>
@@ -105,7 +105,7 @@ export default function Projects() {
                             photographs, the ones you love will lead you to your next journey.
                             </p>
                             <Link to="https://github.com/Alicexplore/The_Photo_Project" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
-                            border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
+                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                             hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>See On Github <span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
                         </motion.div>
                     </div>

@@ -13,7 +13,7 @@ export default function Contact() {
 });
  
   return (
-    <section className='section px-7 py-20 font-inter bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] h-screen ' id='contact' ref={ref}>
+    <section className='section px-7 py-20 font-inter bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-screen ' id='contact' ref={ref}>
     <div className='container mx-auto '>
         <div className='flex flex-col lg:flex-row gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0 '>
             <div className='flex '>
@@ -23,8 +23,8 @@ export default function Contact() {
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0}}>
                     <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>CONTACT_</h1>
-                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px]'>I will start a front-end engineer apprenticeship 
-                    at Qonto in september for one year, <br /> but we can talk !</h2>
+                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px]'>I will join Qonto as a front-end engineer apprentice 
+                    in september 2023 for one year, <br /> but we can talk !</h2>
                     <p className='mb-6 text-justify max-w-[640px]'> 
                     If you have any questions, comments, or if you are interested in collaborating later, please do not hesitate
                     to contact me. I am always happy to meet new people and discuss topics related to computer science and
@@ -32,15 +32,15 @@ export default function Contact() {
                     </p>
                     <div className='grid grid-rows-1 place-items-left lg:grid-cols-3'>
                     <Link to="mailto:alicebergonhe@gmail.com" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
-                    border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
+                    border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                     hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Send Me an Email<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="mail-unread-outline"></ion-icon></span></button></Link> 
 
                      <Link to="https://github.com/Alicexplore" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
-                    border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
+                    border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                     hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Add Me On Github<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
 
                     <Link to="https://www.linkedin.com/in/alicebergonhe/" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
-                    border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
+                    border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                     hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Connect On Linkedin<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-linkedin"></ion-icon></span></button></Link>  
 
                         

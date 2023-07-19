@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 const Hero = () => {
 
     return (
-    <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'>
+    <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'>
         <div className='container mx-auto'>
             <div className='flex flex-row'>
                 <div className='mb-6'>
@@ -19,11 +19,11 @@ const Hero = () => {
                     >
                         <h1 className='leading-none font-inter text-5xl mx-6 md:text-8xl lg:text-9xl'>FRONTEND<br />DEVELOPER_</h1>
                         <div className='font-inter font-light text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
-                            <h4>Code passionate & Design Enthusiast</h4>
+                            <h4>Code Passionate & Design Enthusiast</h4>
                         </div>  
                         <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='mx-8 my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text lg:text-md rounded-sm 
-                                border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
-                              hover:bg-[#222222] duration-500 cursor-pointer'>Contact Me</button></Link>            
+                                border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
+                              hover:bg-[#2e2e2d] duration-500 cursor-pointer'>Contact Me</button></Link>            
                         {/* <div className='flex items-center text-[1.2rem]'>
                             <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='flex mx-7 lg:mx-8 my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2]  px-4 py-2 text-md rounded-sm 
                             border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 

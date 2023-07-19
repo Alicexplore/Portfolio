@@ -29,10 +29,10 @@ export default function Header() {
         <div className='container mx-auto'>
             <div className='flex justify-between items-center'>
                 <a href="#">
-                    <h1 className='flex font-inter dark:text-[#f2F2F2] text-[#222222] text-lg cursor-pointer mx-9'> Alice Bergonhe</h1>
+                    <h1 className='flex font-inter dark:text-[#f2F2F2] text-[#2e2e2d] text-lg cursor-pointer mx-9'> Alice Bergonhe</h1>
                 </a>
                 <button className='mx-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-md rounded-sm 
-                border border-[#222222] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#222222] hover:text-[#d4d4d4] 
+                border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                 hover:bg-[#222222] duration-500' onClick={handleThemeSwitch}>{buttonText}</button> 
             </div>
 
