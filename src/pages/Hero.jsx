@@ -2,13 +2,17 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn} from '../variants'
 import { Link } from 'react-scroll';
-
+import MouseFollow from "./MouseFollow";
 
 const Hero = () => {
 
     return (
-    <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'>
+    
+        <div> 
+          <MouseFollow />  
+    <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'> 
         <div className='container mx-auto'>
+            
             <div className='flex flex-row'>
                 <div className='mb-6'>
                     <motion.div 
@@ -42,6 +46,7 @@ const Hero = () => {
             </div>
         </div>
     </section>
+    </div>
   )
 }
 

@@ -9,13 +9,14 @@ import Projects from './pages/Projects';
 import Header from './components/Header';
 import Contact from './pages/Contact';
 import Intersection from './components/Intersection';
-
+import MouseFollow from './pages/MouseFollow';
 
 
 function App() {
 
   return (
     <div> 
+      <MouseFollow />
       <Header />
       <Hero />
       <Navbar />
