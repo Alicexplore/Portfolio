@@ -31,7 +31,7 @@ const MouseFollow = () => {
         left: circlePosition.x - -10, // Adjust for half of the circle's size
       }}
     >
-      <div className="p-10 rounded-full bg-[#2e2e2d] dark:bg-[#F2F2F2] dark:text-[#2e2e2d] text-[#F2F2F2]">hey</div>
+      <div className="sm:invisible md:visible p-10 rounded-full bg-[#2e2e2d] dark:bg-[#F2F2F2] dark:text-[#2e2e2d] text-[#F2F2F2]">hey</div>
     </div>
   );
 };
