@@ -23,7 +23,7 @@ export default function Contact() {
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0}}>
                     <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>CONTACT_</h1>
-                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px]'>I will join Qonto as a front-end engineer apprentice 
+                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px]'>I will join Qonto as a Front-End Engineer apprentice 
                     in september 2023 for one year, <br /> but we can talk !</h2>
                     <p className='mb-6 text-justify max-w-[640px]'> 
                     If you have any questions, comments, or if you are interested in collaborating later, please do not hesitate
