@@ -21,7 +21,7 @@ const About = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}
                     className='flex-1 bg-about bg-contain bg-no-repeat bg-top'>
-                        <img className='' src="./img/logolong.png" alt="Alice's Desk" width={800}/>
+                        <img className='' src="./img/logo-dark-light.png" alt="Alice's Desk" width={800}/>
                         {/* <img src="./img/desk.png" alt="Alice's Desk" width={600}/> */}
                     </motion.div>
                     <div className='flex-1'>
