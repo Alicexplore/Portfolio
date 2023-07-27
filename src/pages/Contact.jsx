@@ -13,7 +13,7 @@ export default function Contact() {
 });
  
   return (
-    <section className='section px-7 py-20 font-inter bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-screen ' id='contact' ref={ref}>
+    <section className='section px-7 py-20 font-inter bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-auto ' id='contact' ref={ref}>
     <div className='container mx-auto '>
         <div className='flex flex-col lg:flex-row gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0 '>
             <div className='flex '>
@@ -45,6 +45,15 @@ export default function Contact() {
 
                         
                     </div>
+                </motion.div>
+            </div>
+            <div>
+            <motion.div
+                variants={fadeIn('up', 0.9)}
+                initial='hidden'
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0}}>
+                    <img src="./img/linkedinlogoplus.png" alt="" width={400}/>
                 </motion.div>
             </div>
         </div>
