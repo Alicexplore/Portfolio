@@ -29,7 +29,7 @@ export default function Contact() {
                         to contact me. I am always happy to meet new people and discuss topics related to computer science and
                         web development, I am also open to receiving advice from experienced professionals in the field.
                     </p>
-                    <div className='grid grid-rows-1 sm:grid-cols-3'>
+                    <div className='grid grid-rows-1 sm:grid-cols-3 sm:'>
                         <Link to="mailto:alicebergonhe@gmail.com" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
                         border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                         hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Email<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="mail-unread-outline"></ion-icon></span></button></Link> 
@@ -50,7 +50,7 @@ export default function Contact() {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}>
-                    <img src="./img/linkedinlogoplus.png" alt="" width={350}/>
+                    <img src="./img/linkedinlogoplus.png" alt="logo plus contact" width={350}/>
                 </motion.div>
             </div>
         </div>
