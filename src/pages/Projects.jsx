@@ -45,7 +45,7 @@ export default function Projects() {
                             <p className='mb-6 text-justify'> 
                             "The Famiglia Project" is a react application for a Vegan Restaurant.
                             I designed the project on Figma and then I developed the front part.
-                            I am currently working on the back-end side.
+                            I am currently working on the back-end.
                             </p>
                             <Link to="https://github.com/Alicexplore/The_Famiglia_Project" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
                             border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
