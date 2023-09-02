@@ -16,7 +16,7 @@ const MouseFollow = () => {
   }, []);
 
   useEffect(() => {
-    const dampingFactor = 0.1; // Adjust this value to control the damping effect
+    const dampingFactor = 0.1; 
     setCirclePosition((prevPosition) => ({
       x: prevPosition.x + (mousePosition.x - prevPosition.x) * dampingFactor,
       y: prevPosition.y + (mousePosition.y - prevPosition.y) * dampingFactor,
@@ -27,11 +27,11 @@ const MouseFollow = () => {
     <div
       className="fixed z-10"
       style={{
-        top: circlePosition.y - -10, // Adjust for half of the circle's size
-        left: circlePosition.x - -10, // Adjust for half of the circle's size
+        top: circlePosition.y - -10, 
+        left: circlePosition.x - -10, 
       }}
     >
-      <div className="invisible sm:visible p-10 rounded-full bg-[#2e2e2d] dark:bg-[#F2F2F2] dark:text-[#2e2e2d] text-[#F2F2F2]">hey</div>
+      <div className="invisible lg:visible p-10 rounded-full bg-[#2e2e2d] dark:bg-[#F2F2F2] dark:text-[#2e2e2d] text-[#F2F2F2]">hey</div>
     </div>
   );
 };
