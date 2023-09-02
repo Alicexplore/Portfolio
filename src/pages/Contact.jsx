@@ -50,7 +50,7 @@ export default function Contact() {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}>
-                    <div className='grid grid-cols-1 gap-8'>
+                    <div className='grid grid-cols-1 gap-8 mt-4'>
                         <div className='grid grid-cols-2 gap-20'>
                             <Link to="https://github.com/Alicexplore" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
                             border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
