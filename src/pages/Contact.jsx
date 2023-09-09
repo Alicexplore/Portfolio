@@ -53,20 +53,20 @@ export default function Contact() {
                     <div className='grid grid-cols-1 gap-8 mt-4'>
                         <div className='grid grid-cols-2 gap-20'>
                             <Link to="https://github.com/Alicexplore" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
-                            hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>
-                            <span className='text-6xl place-items-center'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
+                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] 
+                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'>
+                            <span className='text-6xl  place-items-center'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
                             <Link to="https://www.linkedin.com/in/alicebergonhe/" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
-                            hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="logo-linkedin"></ion-icon></span></button></Link> 
+                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] 
+                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="logo-linkedin"></ion-icon></span></button></Link> 
                         </div>
                         <div className='grid grid-cols-2 gap-20'>
                         <Link to="mailto:alicebergonhe@gmail.com" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
-                            hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="mail-outline"></ion-icon></span></button></Link> 
+                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d]  
+                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="mail-outline"></ion-icon></span></button></Link> 
                             <Link to="https://instagram.com/Alice_.xplore" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
-                            hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="logo-instagram"></ion-icon></span></button></Link> 
+                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d]  
+                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="logo-instagram"></ion-icon></span></button></Link> 
                         </div>
                     </div>
                     {/* <img src="./img/linkedinlogoplus.png" alt="logo plus contact" width={350}/> */}
