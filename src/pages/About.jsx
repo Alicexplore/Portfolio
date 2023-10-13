@@ -30,8 +30,8 @@ const About = () => {
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0}}>
                             <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>HI_</h1>
-                            <h2 className='text-[1.4rem] md:text-3xl mb-4'>I am a Software Developer  
-                            student with a passion for Web Design.</h2>
+                            <h2 className='text-[1.4rem] md:text-3xl mb-4'>I am a Front-End Developer  
+                            with a passion for Web Design.</h2>
                             <p className='mb-6 text-justify'> 
                             Welcome to my website! As someone who has always been interested in the intersection between design and technology, I believe that 
                             front-end development is the perfect fit for my skillset and interests. I'm passionate about creating intuitive, 
