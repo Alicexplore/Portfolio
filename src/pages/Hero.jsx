@@ -40,7 +40,7 @@ const Hero = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}
                     >
-                        <h1 className='leading-none font-inter text-5xl mx-6 md:text-8xl lg:text-9xl'>SOFTWARE<br />DEVELOPER_<br /></h1>
+                        <h1 className='leading-none font-inter text-5xl mx-6 md:text-8xl lg:text-9xl'>FRONTEND<br />DEVELOPER_<br /></h1>
                         <div className='font-inter font-light text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
                             <h4>Code Passionate | Front-End & Design Enthusiast</h4>
                         </div>  
