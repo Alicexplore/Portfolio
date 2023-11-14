@@ -20,13 +20,13 @@ function App() {
       <Header />
       <Hero />
       <Navbar />
-      <Intersection />
+      {/* <Intersection /> */}
       <About />
-      <Intersection />
+      {/* <Intersection /> */}
       <Projects />
-      <Intersection />
+      {/* <Intersection /> */}
       <Contact />
-      <Intersection />
+      {/* <Intersection /> */}
       <Footer />
     </div>
     
