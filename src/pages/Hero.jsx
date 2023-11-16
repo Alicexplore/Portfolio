@@ -29,7 +29,7 @@ const Hero = () => {
     
         <div> 
         {!isMobileMode() && <MouseFollow />} 
-        <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'> 
+        <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'> 
         <div className='container mx-auto'>
             
             <div className='flex flex-row'>

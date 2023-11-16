@@ -6,6 +6,15 @@ export default function Header() {
     const [theme, setTheme] = useState("light");
     const [buttonText, setButtonText] = useState("Dark Mode");
 
+    useEffect(() => {
+      const storedTheme = localStorage.getItem("theme");
+  
+      const initialTheme = storedTheme || "dark";
+  
+      setTheme(initialTheme);
+      localStorage.setItem("theme", initialTheme);
+    }, []);
+
     useEffect (() => {
         if (theme === "dark") {
             document.documentElement.classList.add("dark");
@@ -15,12 +24,12 @@ export default function Header() {
       }, [theme]);
     
       const handleThemeSwitch = () => {
-        if (theme === "dark") {
-          setTheme("light");
-          setButtonText("Dark Mode");
-        } else {
+        if (theme === "light") {
           setTheme("dark");
           setButtonText("Light Mode");
+        } else {
+          setTheme("light");
+          setButtonText("Dark Mode");
         }
       };
 
