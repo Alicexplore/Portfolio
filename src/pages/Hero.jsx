@@ -9,7 +9,7 @@ const Hero = () => {
      // State variable to track the screen width
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
-  // Update the screen width state whenever the window is resized
+
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
@@ -30,8 +30,7 @@ const Hero = () => {
         <div> 
         {!isMobileMode() && <MouseFollow />} 
         <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'> 
-        <div className='container mx-auto'>
-            
+        <div className='container mx-auto'>           
             <div className='flex flex-row'>
                 <div className='mb-6'>
                     <motion.div 

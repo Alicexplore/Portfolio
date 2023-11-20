@@ -39,11 +39,11 @@ const About = () => {
                             I would be eager to grow and develop my skills alongside a team of experienced professionals.
                             </p>
                             <div className='flex items-center place-content-center justify-center'>
-                                <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className=' my-4 font-inter dark:text-[#222222] dark:bg-[#222222] text-[#222222] px-4 py-2 text lg:text-md rounded-sm 
+                                <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='my-4 font-inter text-[#f2f2f2] dark:text-[#222222] dark:bg-[#f2f2f2] text-[#222222] px-4 py-2 text lg:text-md rounded-sm 
                                 border border-[#2e2e2d] dark:border-[#222222] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                               hover:bg-[#222222] duration-500 cursor-pointer'>Contact Me</button></Link>
-                                <a href="https://drive.google.com/file/d/1CEtNgne0fBz7KuN5DUPeKhHWSy8qILeQ/view?usp=share_link" target="blank" ><button className='mx-7 lg:mx-8 my-4 font-inter dark:text-[#222222] dark:bg-[#222222] text-[#222222] px-4 py-2 text-md rounded-sm 
-                                border border-[#2e2e2d] dark:border-[#222222] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
+                                <a href="https://drive.google.com/file/d/1CEtNgne0fBz7KuN5DUPeKhHWSy8qILeQ/view?usp=share_link" target="blank" ><button className='mx-7 lg:mx-8 my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#222222] px-4 py-2 text-md rounded-sm 
+                                border text-[#f2f2f2] border-[#2e2e2d] dark:border-[#222222] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                               hover:bg-[#222222] duration-500 cursor-pointer'>My Resume</button></a> 
                             </div>
                         </motion.div>
