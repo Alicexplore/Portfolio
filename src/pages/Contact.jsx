@@ -21,7 +21,7 @@ export default function Contact() {
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0}}>
-                    <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>CONTACT_</h1>
+                    <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>CONTACT</h1>
                     <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px]'>I will join Qonto as a Front-End Engineer apprentice 
                     in september 2023 for one year, <br /> but we can talk !</h2>
                     <p className='mb-6 text-justify max-w-[640px]'> 
@@ -45,13 +45,7 @@ export default function Contact() {
                 </motion.div>
             </div>
             <div className='grid grid-cols-1 place-items-center'>
-                <motion.div
-                    variants={fadeIn('up', 0.9)}
-                    initial='hidden'
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0}}>
-                    <div className='grid grid-cols-1 gap-8 mt-4'>
-                    <img className='' src="./nfts/plus.png" alt="Alice's Desk" width={400}/>
+              
                         {/* <div className='grid grid-cols-2 gap-20'>
                             <Link to="https://github.com/Alicexplore" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
                             border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] 
@@ -69,8 +63,7 @@ export default function Contact() {
                             border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d]  
                             hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="logo-instagram"></ion-icon></span></button></Link> 
                         </div> */}
-                    </div>
-                </motion.div>
+                
             </div>
         </div>
     </div>   

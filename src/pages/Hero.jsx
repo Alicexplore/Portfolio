@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion'
 import { fadeIn} from '../variants'
-import { Link } from 'react-scroll';
 import MouseFollow from "./MouseFollow";
 
 const Hero = () => {
@@ -20,18 +19,18 @@ const Hero = () => {
     };
   }, []);
 
-  // Function to check if the application is in mobile mode
+
   const isMobileMode = () => {
-    return windowWidth <= 768; // You can adjust the breakpoint as per your requirement
+    return windowWidth <= 768;
   };
 
     return (
     
         <div> 
         {!isMobileMode() && <MouseFollow />} 
-        <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] h-[600px]'> 
+        <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] h-[400px]'> 
         <div className='container mx-auto'>           
-            <div className='flex flex-row'>
+            <div className='flex flex-row mt-32'>
                 <div className=''>
                     <motion.div 
                       variants={fadeIn('up', 0.1)}
@@ -55,7 +54,7 @@ const Hero = () => {
                       whileInView={'show'}
                       viewport={{ once: true, amount: 0}}
                       >
-                        <div className='font-inter font-light mt-4 text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
+                        <div className='font-inter font-light tracking-tight mt-4 text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
                       <h4>Code Passionate | Design Enthusiast</h4>
                     </div>
                     </motion.div>  
