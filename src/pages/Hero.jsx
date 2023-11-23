@@ -29,24 +29,36 @@ const Hero = () => {
     
         <div> 
         {!isMobileMode() && <MouseFollow />} 
-        <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] min-h-[85vh] lg:min-h[78vh]'> 
+        <section className='section bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] h-[600px]'> 
         <div className='container mx-auto'>           
             <div className='flex flex-row'>
-                <div className='mb-6'>
+                <div className=''>
                     <motion.div 
-                    variants={fadeIn('up', 0.3)}
-                    initial='hidden'
-                    whileInView={'show'}
-                    viewport={{ once: false, amount: 0}}
-                    >
-                        <h1 className='leading-none font-inter text-5xl mx-6 md:text-8xl lg:text-9xl'>FRONTEND<br />DEVELOPER_<br /></h1>
-                        <div className='font-inter font-light text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
-                            <h4>Code Passionate | Design Enthusiast</h4>
-                        </div>  
-                        <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='mx-8 my-6 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text lg:text-md rounded-sm 
-                                border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
-                              hover:bg-[#2e2e2d] duration-500 cursor-pointer'>Contact Me</button></Link>            
+                      variants={fadeIn('up', 0.1)}
+                      initial='hidden'
+                      whileInView={'show'}
+                      viewport={{ once: true, amount: 0}}
+                      >
+                        <h1 className='leading-none font-inter tracking-tight font-medium text-5xl mx-6 md:text-8xl lg:text-9xl'>FRONTEND</h1>           
                     </motion.div>
+                    <motion.div 
+                      variants={fadeIn('up', 0.4)}
+                      initial='hidden'
+                      whileInView={'show'}
+                      viewport={{ once: true, amount: 0}}
+                      >
+                        <h1 className='leading-none font-inter tracking-tight font-medium text-5xl mx-6 md:text-8xl lg:text-9xl'>DEVELOPER</h1>           
+                    </motion.div>
+                    <motion.div 
+                      variants={fadeIn('up', 0.6)}
+                      initial='hidden'
+                      whileInView={'show'}
+                      viewport={{ once: true, amount: 0}}
+                      >
+                        <div className='font-inter font-light mt-4 text-lg mx-7 md:text-2xl lg:mx-8 lg:text-2xl'>
+                      <h4>Code Passionate | Design Enthusiast</h4>
+                    </div>
+                    </motion.div>  
                 </div>
             </div>
         </div>

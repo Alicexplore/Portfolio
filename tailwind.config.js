@@ -8,9 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        worksans: ['Work Sans', 'sans-serif'],
         apercu: ['Apercu Pro', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        suisse: ["Suisse Int'l Book", 'sans-serif']
       },
       fontSize: {
         '5xl': '3.3rem',
