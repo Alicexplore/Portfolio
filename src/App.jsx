@@ -22,9 +22,9 @@ function App() {
       <Navbar />
       {/* <Intersection /> */}
       <About />
-      <Intersection />
+      {/* <Intersection /> */}
       <Projects />
-      <Intersection />
+      {/* <Intersection /> */}
       <Contact />
       <Intersection />
       <Footer />

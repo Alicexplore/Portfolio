@@ -31,10 +31,10 @@ const About = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}
                     className='flex leading-none font-inter  text-5xl mx-6 md:text-2xl lg:text-xl'>
-                        <h1>I CREATE APPEALING INTERFACES THAT<br />USERS LOVE TO INTERACT WITH.</h1>
+                        <h1>I CREATE APPEALING INTERFACES<br />THAT USERS LOVE TO INTERACT WITH.</h1>
                     </motion.div>
                     </div>
-                    <div className='flex flex-col text-right max-w-[600px]'>
+                    <div className='flex flex-col text-right max-w-[600px] mt-20'>
                     <motion.div 
                       variants={fadeIn('up', 0.1)}
                       initial='hidden'
@@ -51,15 +51,16 @@ const About = () => {
                       >
                         <h1 className='leading-none font-inter tracking-tight font-medium text-5xl mx-6 md:text-8xl lg:text-9xl'>BERGONHE</h1>           
                     </motion.div>
+                    
                     <div className='flex'>
                         <motion.div
                         variants={fadeIn('up', 0.9)}
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0}}>
-                            <h2 className='text-[1.4rem] md:text-3xl mb-4'>I am a Front-End Developer  
+                            <h2 className='text-[1.4rem] md:text-3xl mb-10 mt-4'>I am a Front-End Developer  
                             with a passion for Web Design.</h2>
-                            <p className='mb-6 text-justify'> 
+                            <p className='mb-6 text-justify font-inter text-xl'> 
                             Welcome to my website! As someone who has always been interested in the intersection between design and technology, I believe that 
                             front-end development is the perfect fit for my skillset and interests. I'm passionate about creating intuitive, 
                             visually appealing interfaces that users love to interact with. With my strong design background and desire to learn,
