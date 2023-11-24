@@ -6,16 +6,23 @@ export default function Navbar() {
 
   const [theme, setTheme] = useState("light");
 
-  useEffect (() => {
-    if (theme === "dark") {
-        document.documentElement.classList.add("dark");
-    } else {
-        document.documentElement.classList.remove("dark"); 
-    }
+  useEffect(() => {
+    const applyTheme = () => {
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    };
+
+    // Appliquer le thème avec un délai léger pour s'assurer que le changement de thème est appliqué
+    const timeoutId = setTimeout(applyTheme, 10);
+
+    return () => clearTimeout(timeoutId);
   }, [theme]);
 
   const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    setTheme((prevTheme) => (prevTheme === 'dark' ? 'light' : 'dark'));
   };
 
   return (

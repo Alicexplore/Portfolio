@@ -1,10 +1,8 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../variants'
-
-
 
 export default function Projects() {
 
@@ -30,8 +28,10 @@ export default function Projects() {
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}
-                    className='flex-1 '>
-                    <Link to="https://github.com/Alicexplore/The_Famiglia_Project" target="blank" className='cursor-pointer' ><img className='w-full h-[300px] object-cover hover:scale-105 duration-500 rounded-md' src="./images/monika-grabkowska-M1y4TFQ9zVk-unsplash.jpg" alt="" /></Link>
+                    className='flex-1 '>   
+                    <Link to="https://github.com/Alicexplore/The_Famiglia_Project" target="blank" className='cursor-pointer' >
+                        <img className='w-full h-[300px] object-cover hover:scale-105 duration-500 rounded-md' 
+                        src="./images/monika-grabkowska-M1y4TFQ9zVk-unsplash.jpg" alt="" /></Link>
                     </motion.div>
                     <div className='flex-1 place-items-center justify-center'>
                         <motion.div
