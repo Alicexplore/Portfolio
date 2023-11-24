@@ -20,26 +20,26 @@ const About = () => {
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}
                     className='flex-1 '>
-                        <div className='flex flex-row gap-10'>
+                        <div className='flex flex-row gap-20 mb-20'>
                             <h1>01.</h1>
-                            <h1>I CREATE APPEALING INTERFACES<br />THAT USERS LOVE TO INTERACT WITH.</h1>  
+                            <h1 className='text-justify'>I CREATE APPEALING INTERFACES<br />THAT USERS LOVE TO INTERACT WITH.</h1>  
                         </div> 
                     </motion.div>
-                    <div className='flex-1 place-items-center justify-center'>
+                    <div className='flex-1 place-items-center justify-center text-end'>
                         <motion.div
                         variants={fadeIn('up', 0.3)}
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0}}>
-                            <h1 className='leading-none font-inter tracking-tight font-medium text-5xl mx-6 md:text-8xl lg:text-9xl text-end'>ALICE<br />BERGONHE</h1>
-                            <h2 className='text-[1.2rem] md:text-2xl mb-4 -mt-4'>Vegan Restaurant Website</h2>
-                            <p className='mb-6 text-justify'> 
-                            "The Famiglia Project" is a react application for a Vegan Restaurant.
-                            I designed the project on Figma and then I developed the front part.
-                            I am currently working on the back-end.
+                            <h1 className='leading-none font-inter tracking-tight font-medium text-5xl md:text-8xl lg:text-9xl text-end'>ALICE<br />BERGONHE</h1>
+                            <h2 className='text-[1.2rem] md:text-2xl mb-4 -mt-4'>I am a Front-End Developer  
+                            with a passion for Web Design</h2>
+                            <p className='mb-6 text-end'> 
+                            I'm passionate about creating intuitive, visually appealing interfaces that users love to interact with. 
+                            With my strong design background and desire to learn, I would be eager to grow and develop my skills alongside a team of experienced professionals.
                             </p>
                             <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='flex font-inter dark:text-[#f2F2F2] 
-                          text-[#2e2e2d] text-lg mx-9 duration-500 cursor-pointer'>Contact ↓</button></Link> 
+                          text-[#2e2e2d] text-2xl font-medium mx-9 duration-500 cursor-pointer'>Contact ↓</button></Link> 
                         </motion.div>
                     </div>
                 </div>

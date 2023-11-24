@@ -21,20 +21,20 @@ export default function Contact() {
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0}}>
-                    <h1 className='text-[4rem] md:text-[7.6rem] -ml-1 md:-ml-2'>CONTACT</h1>
-                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px]'>I will join Qonto as a Front-End Engineer apprentice 
-                    in september 2023 for one year, <br /> but we can talk !</h2>
+                    <h1 className='leading-none font-inter tracking-tight font-medium text-5xl md:text-8xl lg:text-9xl text-left'>CONTACT</h1>
+                    <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px] text-justify'>I am currently a Front-End Engineer Apprentice at Qonto since 
+                    september 2023 and for one year, but we can talk!</h2>
                     <p className='mb-6 text-justify max-w-[640px]'> 
                         If you have any questions, comments, or if you are interested in collaborating later, please do not hesitate
                         to contact me. I am always happy to meet new people and discuss topics related to computer science and
                         web development, I am also open to receiving advice from experienced professionals in the field.
                     </p>
-                    <div className='grid grid-rows-1 sm:grid-cols-3 '>
+                    <div className='flex gap-4'>
                         <Link to="mailto:alicebergonhe@gmail.com" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
                         border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                         hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Email<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="mail-unread-outline"></ion-icon></span></button></Link> 
 
-                         <Link to="https://github.com/Alicexplore" target="blank" className='cursor-pointer' ><button className='font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
+                         <Link to="https://github.com/Alicexplore" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] px-4 py-2 text-lg rounded-sm 
                         border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] hover:text-[#d4d4d4] 
                         hover:bg-[#222222] duration-500 cursor-pointer flex items-center justify-center'>Github<span className='flex text-xl justify-center items-center ml-3'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
 
@@ -44,28 +44,13 @@ export default function Contact() {
                     </div> 
                 </motion.div>
             </div>
-            <div className='grid grid-cols-1 place-items-center'>
-              
-                        {/* <div className='grid grid-cols-2 gap-20'>
-                            <Link to="https://github.com/Alicexplore" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] 
-                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'>
-                            <span className='text-6xl  place-items-center'><ion-icon name="logo-github"></ion-icon></span></button></Link> 
-                            <Link to="https://www.linkedin.com/in/alicebergonhe/" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d] 
-                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="logo-linkedin"></ion-icon></span></button></Link> 
-                        </div>
-                        <div className='grid grid-cols-2 gap-20'>
-                        <Link to="mailto:alicebergonhe@gmail.com" target="blank" className='cursor-pointer' ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d]  
-                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="mail-outline"></ion-icon></span></button></Link> 
-                            <Link to="https://instagram.com/Alice_.xplore" target="blank" ><button className='my-4 font-inter dark:text-[#222222] dark:bg-[#f2f2f2] text-[#f2f2f2] p-9 text-lg rounded-md 
-                            border border-[#2e2e2d] dark:border-[#f2f2f2] dark:hover:text-[#3b3b3b] bg-[#2e2e2d]  
-                            hover:bg-[#484848] duration-500 cursor-pointer flex items-center justify-center'><span className='text-6xl place-items-center'><ion-icon name="logo-instagram"></ion-icon></span></button></Link> 
-                        </div> */}
-                
+            <div className='grid grid-rows-1 lg:mx-6'>
+            <div className='flex flex-row gap-20 mb-32'>
+                <h1 className='text-justify'>I CREATE APPEALING INTERFACES<br />THAT USERS LOVE TO INTERACT WITH.</h1> 
+                <h1>03.</h1> 
+            </div> 
             </div>
-        </div>
+            </div>
     </div>   
 </section>
 

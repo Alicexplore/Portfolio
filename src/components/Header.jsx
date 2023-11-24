@@ -42,7 +42,7 @@ export default function Header() {
                 <h1 className='flex font-inter dark:text-[#f2F2F2] text-[#2e2e2d] text-lg cursor-pointer mx-9 leading-snug'>Front-End Engineer<br />Apprentice at Qonto</h1>
                 <h1 className='flex font-inter dark:text-[#f2F2F2] text-[#2e2e2d] text-lg cursor-pointer mx-9 leading-snug'>Living in Paris<br />France</h1>
                 <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='flex font-inter dark:text-[#f2F2F2] 
-                text-[#2e2e2d] text-lg mx-9 duration-500 cursor-pointer'>Contact ↓</button></Link> 
+                text-[#2e2e2d] text-lg mx-9 duration-500 cursor-pointer'>Contact <span className=''>↓</span></button></Link> 
             </div>
         </div>
     </div>

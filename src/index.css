@@ -21,16 +21,3 @@
 
 }
 
-.video-container {
-    --border-width: 40px;
-    margin: var(--border-width) auto;
-    position: sticky;
-    top: var(--border-width);
-    width: 800px;
-    backdrop-filter: blur(4px) brightness(150%);
-  }
-/*   
-  video {
-    width: 400px;
-    position: relative;
-  } */
