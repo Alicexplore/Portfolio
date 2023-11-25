@@ -42,6 +42,7 @@ export default function Navbar() {
           <Link to='contact' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
           </Link>
+          <div className='border-r h-[45@px] border-[#f2f2f2] dark:border-[#222222]'></div>
           <Link to='#' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center' onClick={handleThemeSwitch}>
             <ion-icon name="contrast-outline"></ion-icon>
           </Link>
