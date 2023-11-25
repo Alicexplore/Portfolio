@@ -12,8 +12,8 @@ export default function Contact() {
 });
  
   return (
-    <section className='section px-7 py-20 font-inter bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-auto ' id='contact' ref={ref}>
-    <div className='container mx-auto '>
+    <section className='px-7 py-20 font-inter bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-auto ' id='contact' ref={ref}>
+    <div className=' mx-auto '>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-y-10 lg:items-center lg:gap-x-20 lg:gap-y-0 '>
             <div className='grid grid-rows-1 lg:mx-6'>
                 <motion.div

@@ -31,7 +31,7 @@ const Hero = () => {
             <div className='grid grid-cols-1'>
                 <div className=''>
                     <motion.div 
-                      variants={fadeIn('up', 0.4)}
+                      variants={fadeIn('up', 0.8)}
                       initial='hidden'
                       whileInView={'show'}
                       viewport={{ once: true, amount: 0}}
@@ -39,7 +39,7 @@ const Hero = () => {
                         <h1 className='font-inter tracking-tight font-medium text-5xl md:text-8xl lg:text-9xl'>FRONTEND</h1>           
                     </motion.div>
                     <motion.div 
-                      variants={fadeIn('up', 0.8)}
+                      variants={fadeIn('up', 0.4)}
                       initial='hidden'
                       whileInView={'show'}
                       viewport={{ once: true, amount: 0}}

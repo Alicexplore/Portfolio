@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
-      <div className='container mx-auto'>
+      <div className='mx-auto'>
         <div className='w-full bg-[#2e2e2d] dark:bg-[#f2f2f2] h-[76px] backdrop-blur-2xl rounded-md max-w-[350px]
         mx-auto px-5 flex justify-between items-center text-2xl text-[#f2f2f2] dark:text-[#222222]'> 
           <Link to='header' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
