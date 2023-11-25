@@ -11,11 +11,11 @@ const About = () => {
     });
 
     return (
-        <section className='section px-7 py-20  bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-auto' id='about' ref={ref}>
-            <div className='container mx-auto'>
-                <div className='px-7 flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 mt-24'>
+        <div className='px-20 py-20 bg-[#f2f2f2] dark:bg-[#222222] text-[#222222] dark:text-[#f2f2f2] h-auto' id='about' ref={ref}>
+            <div className='grid grid-cols-2'>
+                <div className='grid grid-cols-1'>
                     <motion.div
-                    variants={fadeIn('up', 0.9)}
+                    variants={fadeIn('up', 0.)}
                     initial='hidden'
                     whileInView={'show'}
                     viewport={{ once: false, amount: 0}}
@@ -25,13 +25,26 @@ const About = () => {
                             <h1 className='text-justify'>I CREATE APPEALING INTERFACES<br />THAT USERS LOVE TO INTERACT WITH.</h1>  
                         </div> 
                     </motion.div>
-                    <div className='flex-1 place-items-center justify-center text-end'>
+                </div> 
+                <div className='grid grid-cols-1'> 
+                    <div className='text-end'>
                         <motion.div
                         variants={fadeIn('up', 0.3)}
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0}}>
-                            <h1 className='leading-none font-inter tracking-tight font-medium text-5xl md:text-8xl lg:text-9xl text-end'>ALICE<br />BERGONHE</h1>
+                            <h1 className='leading-tight font-inter tracking-tight font-medium text-5xl md:text-8xl lg:text-9xl text-end'>ALICE</h1>
+                        </motion.div>
+                    </div> 
+                </div>
+            </div> 
+            <div className='grid grid-cols-1'> 
+                        <motion.div
+                        variants={fadeIn('up', 0.3)}
+                        initial='hidden'
+                        whileInView={'show'}
+                        viewport={{ once: false, amount: 0}}>   
+                            <h1 className='leading-tight font-inter tracking-tight font-medium text-5xl md:text-8xl lg:text-9xl text-end'>BERGONHE</h1> 
                             <h2 className='text-[1.2rem] md:text-2xl mb-4 -mt-4'>I am a Front-End Developer  
                             with a passion for Web Design</h2>
                             <p className='mb-6 text-end'> 
@@ -41,9 +54,15 @@ const About = () => {
                             <Link to='contact' activeClass='active' smooth={true} spy={true} ><button className='flex font-inter dark:text-[#f2F2F2] 
                           text-[#2e2e2d] text-2xl font-medium mx-9 duration-500 cursor-pointer'>Contact ↓</button></Link> 
                         </motion.div>
-                    </div>
-                </div>
-                {/* <div className='flex flex-row gap-10 lg:items-center lg:gap-x-20 lg:gap-y-0'>
+                    </div>  
+        </div>
+  )
+}
+
+export default About
+
+
+ {/* <div className='flex flex-row gap-10 lg:items-center lg:gap-x-20 lg:gap-y-0'>
                     <div className='flex flex-col'>
                     <motion.div
                     variants={fadeIn('up', 0.3)}
@@ -110,12 +129,5 @@ const About = () => {
                     {/* </div> */} 
                     {/* } */}
                     {/* </div> */}
-                {/* </div> */}
-            </div>    
-        </section>
-  )
-}
-
-export default About
-
+                {/* </div> */}   
 

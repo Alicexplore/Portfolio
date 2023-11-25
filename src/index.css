@@ -11,13 +11,3 @@
     @apply dark:bg-[#222222];
     @apply dark:text-[#f2f2f2];
 }
-
-
-@layer base {
-
-.section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
-}
-
-}
-
