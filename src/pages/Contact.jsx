@@ -18,7 +18,7 @@ export default function Contact() {
                 variants={fadeIn('up', 0.3)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{ once: false, amount: 0}}>
+                viewport={{ once: true, amount: 0}}>
                     <h1 className='text-[4rem] md:text-[7.6rem] md:ml-4 -mt-8 font-medium text-left'>CONTACT</h1>
                 </motion.div>
             </div>
@@ -27,7 +27,7 @@ export default function Contact() {
                 variants={fadeIn('up', 0.9)}
                 initial='hidden'
                 whileInView={'show'}
-                viewport={{ once: false, amount: 0}}
+                viewport={{ once: true, amount: 0}}
                 className='flex-1 mt-4'>
                     <div className='flex flex-row gap-12 mb-14'>
                         <h1 className='text-lg'>03 .</h1> 

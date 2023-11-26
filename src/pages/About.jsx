@@ -21,7 +21,7 @@ const About = () => {
                     viewport={{ once: false, amount: 0}}
                     className='flex-1 '>
                         <div className='flex flex-row gap-20 mb-20'>
-                            <h1>01.</h1>
+                            <h1>01 /</h1>
                             <h1 className='text-justify'>I CREATE APPEALING INTERFACES<br />THAT USERS LOVE TO INTERACT WITH.</h1>  
                         </div> 
                     </motion.div>
