@@ -60,10 +60,10 @@ export default function Projects() {
                             <img src="./images/3.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/2.png"/>
+                            <img src="./images/4.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/1.png"/>
+                            <img src="./images/5.png"/>
                         </div>
                     </div>
                     </Link>
@@ -107,19 +107,19 @@ export default function Projects() {
                     <Link to="https://github.com/Alicexplore/The_Sneakers_Project" target="blank">
                     <div className='cont'>
                         <div className="boxy">
-                            <img src="./images/4.png"/>
-                        </div>
-                        <div className="boxy">
-                            <img src="./images/5.png"/>
-                        </div>
-                        <div className="boxy">
                             <img src="./images/6.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/5.png"/>
+                            <img src="./images/7.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/4.png"/>
+                            <img src="./images/8.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/9.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/10.png"/>
                         </div>
                     </div>
                     </Link>
@@ -157,9 +157,6 @@ export default function Projects() {
                     <Link to="https://github.com/Alicexplore/The_Homs_Project" target="blank">
                     <div className='cont'>
                         <div className="boxy">
-                            <img src="./images/10.png"/>
-                        </div>
-                        <div className="boxy">
                             <img src="./images/11.png"/>
                         </div>
                         <div className="boxy">
@@ -170,6 +167,9 @@ export default function Projects() {
                         </div>
                         <div className="boxy">
                             <img src="./images/14.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/15.png"/>
                         </div>
                     </div>
                     </Link>
@@ -207,19 +207,19 @@ export default function Projects() {
                     <Link to="https://github.com/Alicexplore/The_Photo_Project" target="blank">
                     <div className='cont'>
                         <div className="boxy">
-                            <img src="./images/7.png"/>
+                            <img src="./images/16.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/8.png"/>
+                            <img src="./images/17.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/9.png"/>
+                            <img src="./images/18.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/8.png"/>
+                            <img src="./images/19.png"/>
                         </div>
                         <div className="boxy">
-                            <img src="./images/7.png"/>
+                            <img src="./images/20.png"/>
                         </div>
                     </div>
                     </Link>
