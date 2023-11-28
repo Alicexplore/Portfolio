@@ -5,18 +5,14 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-import OpeningCounter from './pages/OpeningCounter';
-
-
-// import MouseFollow from './pages/MouseFollow';
-
+import Header from './components/Header';
 
 function App() {
 
   return (
     <div> 
-      {/* <OpeningCounter />  */}
-      <Navbar />
+      {/* <Navbar /> */}
+      {/* <Header /> */}
       <Banner />
       <Projects />
       <Contact />
