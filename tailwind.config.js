@@ -10,7 +10,9 @@ export default {
       fontFamily: {
         apercu: ['Apercu Pro', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
-        suisse: ["Suisse Int'l Book", 'sans-serif']
+        suisse: ["Suisse Int'l Book", 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        graphik: ['Graphik XXXXCond Sup Trial'],
       },
       fontSize: {
         '5xl': '3.3rem',

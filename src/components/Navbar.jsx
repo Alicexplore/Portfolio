@@ -26,16 +26,16 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50'>
+    <nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-40'>
       <div className='mx-auto'>
-        <div className='w-full bg-[#222222] dark:bg-[#f2f2f2] h-[76px] backdrop-blur-2xl rounded-md max-w-[350px]
+        <div className='w-full bg-[#222222] dark:bg-[#f2f2f2] h-[76px] backdrop-blur-2xl rounded-md max-w-[300px]
         mx-auto px-5 flex justify-between items-center text-2xl text-[#f2f2f2] dark:text-[#222222]'> 
           <Link to='header' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <ion-icon name="home-outline"></ion-icon>
           </Link>
-          <Link to='about' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
+          {/* <Link to='about' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <ion-icon name="hand-right-outline"></ion-icon>
-          </Link>
+          </Link> */}
           <Link to='projects' activeClass='active' smooth={true} spy={true} className='cursor-pointer w-[50px] h-[50px] flex items-center justify-center'>
             <ion-icon name="albums-outline"></ion-icon>
           </Link>

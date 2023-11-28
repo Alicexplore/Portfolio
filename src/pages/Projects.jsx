@@ -2,28 +2,62 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import { useInView } from 'react-intersection-observer'
 import { motion } from 'framer-motion';
-import { fadeIn } from '../variants'
 
 export default function Projects() {
 
-    const [ref, inView] = useInView ({
+    const [ref] = useInView ({
         threshold: 0.5,
     });
 
   return (
 
-    <div className='px-20 py-20 bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-auto' id='projects' ref={ref}>
-        <div className='grid grid-cols-2'>
-            <div className='grid grid-cols-1 leading-tight'>
+    <div className='px-20 py-20 bg-[#f2f2f2] dark:bg-[#222222] text-[#2e2e2d] dark:text-[#f2f2f2] h-auto'>
+        <div className='py-20'></div>
+        <div id='projects' ref={ref}>
+            <div className='cont'>
+                        <div className="boxy">
+                            <img src="./images/16.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/17.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/18.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/19.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/20.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/6.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/7.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/8.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/9.png"/>
+                        </div>
+                        <div className="boxy">
+                            <img src="./images/10.png"/>
+                        </div>
+                    </div>
+        </div>
+        {/* <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-1 leading-tight'> */}
                 {/* <motion.div
                 variants={fadeIn('up', 0.3)}
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{ once: true, amount: 0}}
                 className='flex-1'> */}
-                <h1 className='text-[4rem] md:text-[7.6rem] -mt-8 font-medium text-left md:ml-4'>WORKS</h1>
+                {/* <h1 className='text-[4rem] md:text-[7.6rem] -mt-8 font-medium text-left md:ml-4'>WORKS</h1> */}
                 {/* </motion.div> */}
-            </div> 
+            {/* </div> 
             <div className='grid grid-cols-1'> 
                 <motion.div
                 variants={fadeIn('left', 0.9)}
@@ -39,9 +73,9 @@ export default function Projects() {
                     </div> 
             </motion.div> 
             </div>    
-        </div>  
+        </div>   */}
 
-                <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 mt-36'>
+                {/* <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 mt-36'>
                     <motion.div
                     variants={fadeIn('right', 0.9)}
                     initial='hidden'
@@ -72,16 +106,16 @@ export default function Projects() {
                         variants={fadeIn('left', 0.3)}
                         initial='hidden'
                         whileInView={'show'}
-                        viewport={{ once: true, amount: 0}}>
-                        <div className='border-r h-[300px] border-[#222222] dark:border-[#f2f2f2]'></div>
-                        </motion.div>
+                        viewport={{ once: true, amount: 0}}> */}
+                        {/* <div className='border-r h-[300px] border-[#222222] dark:border-[#f2f2f2]'></div> */}
+                        {/* </motion.div>
                     <div className='flex-1 place-items-center justify-center'>
                         <motion.div
                         variants={fadeIn('left', 0.3)}
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: true, amount: 0}}>
-                            <h1 className='text-[4rem] md:text-[6rem] -ml-1 md:-ml-2 -mt-7'>I. FAMIGLIA</h1>
+                            <h1 className=' font-poppins font-medium text-[4rem] md:text-[6rem] -ml-1 md:-ml-2 -mt-7 tracking-tight'>famiglia</h1>
                             <h2 className='text-[1.2rem] md:text-2xl mb-4 -mt-4'>Vegan Restaurant</h2>
                             <p className='py-4 text-justify text-md font-light'> 
                             Designed and developed, built with React and Tailwind<br />
@@ -107,8 +141,8 @@ export default function Projects() {
                     <Link to="https://github.com/Alicexplore/The_Sneakers_Project" target="blank">
                     <div className='cont'>
                         <div className="boxy">
-                            <img src="./images/6.png"/>
-                        </div>
+                            <img src="./images/6.png"/> */}
+                        {/* </div>
                         <div className="boxy">
                             <img src="./images/7.png"/>
                         </div>
@@ -223,9 +257,9 @@ export default function Projects() {
                         </div>
                     </div>
                     </Link>
-                    </motion.div>
-                    <div className='border-r h-[300px] border-[#222222] dark:border-[#f2f2f2]'></div>
-                    <div className='flex-1 place-items-center justify-center'>
+                    </motion.div> */}
+                    {/* <div className='border-r h-[300px] border-[#222222] dark:border-[#f2f2f2]'></div> */}
+                    {/* <div className='flex-1 place-items-center justify-center'>
                         <motion.div
                         variants={fadeIn('left', 0.3)}
                         initial='hidden'
@@ -245,7 +279,7 @@ export default function Projects() {
                             <ion-icon name="logo-github"></ion-icon></span></button></Link> 
                         </motion.div>
                     </div>
-                </div>         
+                </div>          */}
         </div>
     )
 }

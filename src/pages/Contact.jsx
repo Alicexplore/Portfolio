@@ -6,7 +6,7 @@ import { fadeIn } from '../variants'
 
 export default function Contact() {
  
-  const [ref, inView] = useInView ({
+  const [ref] = useInView ({
     threshold: 0.5,
 });
  
@@ -19,7 +19,7 @@ export default function Contact() {
                 initial='hidden'
                 whileInView={'show'}
                 viewport={{ once: true, amount: 0}}>
-                    <h1 className='text-[4rem] md:text-[7.6rem] md:ml-4 -mt-8 font-medium text-left'>CONTACT</h1>
+                    <h1 className=' font-graphik text-[20rem] md:ml-4 -mt-8  text-left'>CONTACT</h1>
                 </motion.div>
             </div>
             <div className='grid grid-cols-1'> 
