@@ -38,7 +38,7 @@ export default function Contact() {
         </div>
     </div>   
 
-)
+    )
 }
 
  {/* <h2 className='text-[1.4rem] md:text-3xl mb-4 max-w-[690px] text-justify'>I am currently a Front-End Engineer Apprentice at Qonto since 

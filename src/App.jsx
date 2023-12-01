@@ -1,19 +1,18 @@
 import './App.css';
 import './Banner.scss'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Banner from './pages/Banner';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
-import Header from './components/Header';
+import Homs from './pages/Homs';
+import MouseFollow from './pages/MouseFollow';
+
 
 function App() {
 
   return (
     <div> 
-      {/* <Navbar /> */}
-      {/* <Header /> */}
+      <MouseFollow />
       <Banner />
+      <Homs />
       {/* <Projects /> */}
       {/* <Contact />
       <Footer /> */}
