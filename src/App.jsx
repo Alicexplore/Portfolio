@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Banner from './pages/Banner';
 import Homs from './pages/Homs';
 import MouseFollow from './pages/MouseFollow';
+import Contact from './pages/Contact'
 
 
 function App() {
@@ -13,9 +14,9 @@ function App() {
       <MouseFollow />
       <Banner />
       <Homs />
+      <Contact />
       {/* <Projects /> */}
-      {/* <Contact />
-      <Footer /> */}
+      {/* <Footer /> */}
     </div>  
   )
 }

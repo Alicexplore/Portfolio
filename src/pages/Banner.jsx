@@ -71,7 +71,7 @@ const Header = () => {
             <h1 className='flex font-inter dark:text-[#f2F2F2] text-[#222] text-md leading-snug'>Front-End Engineer<br />Apprentice at Qonto</h1>
             <h1 className='flex font-inter dark:text-[#f2F2F2] text-[#222] text-md leading-snug'>Living in Paris<br />France</h1>
             <h1 className='flex underline-on-hover cursor-pointer font-inter dark:text-[#f2F2F2] text-[#222222] text-md leading-snug'>Contact</h1>
-            <h1 className='flex cursor-pointer dark:text-[#f2f2f2] text-[#222222] text-[1.7rem] duration-1000 self-center'
+            <h1 className='flex cursor-pointer dark:text-[#f2f2f2] text-[#222222] text-[1.7rem] duration-1000 self-center mb-1'
               onClick={handleThemeSwitch} 
               style={{
                 transform: `rotate(${rotateAngle}deg)`,
@@ -160,8 +160,8 @@ const BannerRowTop = ({ title }) => {
         }}
         className='row-col'>
         <span className='row-message mr-10 text-lg font-inter'>
-          I create intuitive and visually appealing interfaces 
-          that users love to interact with.
+        I create intuitive and visually appealing interfaces 
+        that users love to interact with.
         </span>
       </motion.div>
     </div>
